@@ -24,9 +24,9 @@
     field7: "Law",
     field8: "Art & Science",
     fees: 50,
-    about:
+    about: //NOT MORE THAN 6 LInes
       "Jeppiaar Engineering College is renowned for its commitment to producing skilled engineers who are ready to tackle global challenges...",
-    overview:"Jeppiaar Engineering College is renowned for its commitment to producing skilled engineers who are ready t",
+    overview:"Jeppiaar Engineering College is renowned for its commitment to producing skilled engineers who are ready t", //Add more if ypu needed
     questions: [
       {
         question: "What is the admission process?",
