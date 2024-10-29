@@ -1,10 +1,10 @@
-export const Collages = [
-  {
+{
     _id: "doc1",
     name: "Jeppiaar Engineering College",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgC239matQW61W-RVQ6h1Dy_FTPcshkVmvOg&s",
     image:
       "https://www.static-contents.youth4work.com/university/Documents/Colleges/newsEvent/7ff4495c-1948-4f05-ace0-96837380a810.jpg",
-    speciality: "Engineering",
+    speciality: "Tamil Nadu",
     place: "Tamil Nadu",
     est: "Estd 2001",
     anothername: "KG-PTU, Jalandhar",
@@ -26,6 +26,7 @@ export const Collages = [
     fees: 50,
     about:
       "Jeppiaar Engineering College is renowned for its commitment to producing skilled engineers who are ready to tackle global challenges...",
+    overview:"Jeppiaar Engineering College is renowned for its commitment to producing skilled engineers who are ready t",
     questions: [
       {
         question: "What is the admission process?",
@@ -38,7 +39,7 @@ export const Collages = [
       {
         question: "What is the fee structure?",
         answer:
-          "The fee structure varies by course, starting from â‚¹120,000 per year.",
+          "The fee structure varies by course, starting from ₹120,000 per year.",
       },
     ],
     courses: [
@@ -47,14 +48,14 @@ export const Collages = [
         duration: "3 Year",
         type: "Full Time",
         category: "UG",
-        fees: "â‚¹157,000/- Per Year",
+        fees: "₹157,000/- Per Year",
       },
       {
         name: "BCA",
         duration: "3 Year",
         type: "Full Time",
         category: "UG",
-        fees: "â‚¹53,666/- Per Year",
+        fees: "₹53,666/- Per Year",
       },
     ],
     placement: {
@@ -163,4 +164,3 @@ export const Collages = [
       "Contact Details": "contact@jeppiaar.edu.in",
     },
   },
-  
