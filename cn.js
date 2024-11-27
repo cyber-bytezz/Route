@@ -1,3 +1,91 @@
+import appointment_img from "./appointment_img.png";
+import header_img from "./header_img.png";
+import group_profiles from "./group_profiles.png";
+import profile_pic from "./profile_pic.png";
+import contact_image from "./contact_image.png";
+import about_image from "./about_image.png";
+import logo from "./logo.svg";
+import dropdown_icon from "./dropdown_icon.svg";
+import menu_icon from "./menu_icon.svg";
+import cross_icon from "./cross_icon.png";
+import chats_icon from "./chats_icon.svg";
+import verified_icon from "./verified_icon.svg";
+import arrow_icon from "./arrow_icon.svg";
+import info_icon from "./info_icon.svg";
+import upload_icon from "./upload_icon.png";
+import Engineering from "./Engineering.png";
+import Medical from "./Management.png";
+import Management from "./Management.png";
+import Arts_Humanities from "./Arts_Humanities.png";
+import Agriculture from "./Agriculture.png";
+import Law from "./Law.png";
+import Pharmacy from "./Pharmacy.png";
+import Allied_Health_Sciences from "./Allied_Health_Sciences.png";
+
+export const assets = {
+  appointment_img,
+  header_img,
+  group_profiles,
+  logo,
+  chats_icon,
+  verified_icon,
+  info_icon,
+  profile_pic,
+  arrow_icon,
+  contact_image,
+  about_image,
+  menu_icon,
+  cross_icon,
+  dropdown_icon,
+  upload_icon,
+  stripe_logo,
+  razorpay_logo,
+};
+
+export const collegesData = [
+  { name: "Indian Institute of Technology, Delhi" },
+  { name: "Harvard University" },
+  { name: "Stanford University" },
+  { name: "Oxford University" },
+  { name: "University of Cambridge" },
+  // Add more colleges
+];
+
+export const specialityData = [
+  {
+    speciality: "TamilNadu",
+    image: Engineering,
+  },
+  {
+    speciality: "Karnataka",
+    image: Management,
+  },
+  {
+    speciality: "Medical",
+    image: Medical,
+  },
+  {
+    speciality: "Arts & Humanities",
+    image: Arts_Humanities,
+  },
+  {
+    speciality: "Agriculture",
+    image: Agriculture,
+  },
+  {
+    speciality: "Law",
+    image: Law,
+  },
+  {
+    speciality: "Pharmacy",
+    image: Pharmacy,
+  },
+  {
+    speciality: "Allied Health Sciences",
+    image: Allied_Health_Sciences,
+  },
+];
+
 export const Collages = [
   {
     _id: "doc1",
@@ -15874,19 +15962,19 @@ export const Collages = [
     placement: {
       2022: {
         description: "There is something very special about this institution as far as placements are concerned. The performance on that front is always more than satisfactory. Students here have made in ways into top companies in the corporate world and have brought glory to their alma mater. It would not be a surprise to say that, there is no company in the biz world, where you would not find a student of this institution performing their duties to the best of their abilities...",
-        topRecruiters: [-],
+        topRecruiters: [],
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:
           "Earlier, as per the NIRF report 2023, 629 UG and 82 PG students were placed during 2022 placements. The median package offered to BTech and BDS students was INR 4.2 LPA and INR 6.6 LPA, respectively. The median package offered to PG (2-year) and PG (3-year) students during Sri Siddhartha Academy of Higher Education placements 2022 was INR 4.2 LPA and INR 12 LPA, respectively.......",
-        topRecruiters: [-],
+        topRecruiters: [],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1893+,
+        totalOffers: 1893,
       },
     },
     address: {
@@ -16215,19 +16303,19 @@ export const Collages = [
     placement: {
       2022: {
         description: "There is something very special about this institution as far as placements are concerned. The performance on that front is always more than satisfactory. Students here have made in ways into top companies in the corporate world and have brought glory to their alma mater. It would not be a surprise to say that, there is no company in the biz world, where you would not find a student of this institution performing their duties to the best of their abilities...",
-        topRecruiters: [ATOS],
+        topRecruiters: [],
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:
           "Earlier, as per the NIRF report 2023, 629 UG and 82 PG students were placed during 2022 placements. The median package offered to BTech and BDS students was INR 4.2 LPA and INR 6.6 LPA, respectively. The median package offered to PG (2-year) and PG (3-year) students during Sri Siddhartha Academy of Higher Education placements 2022 was INR 4.2 LPA and INR 12 LPA, respectively.......",
-        topRecruiters: [ATOS],
+        topRecruiters: [],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1893+,
+        totalOffers: 1893,
       },
     },
     address: {
@@ -16407,14 +16495,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:"Offers placement assistance through campus recruitment and other activities. Organizes lectures, seminars, group discussions, mock interviews, etc., for career guidance, entrepreneurship, and personality development......",
         topRecruiters: ["AZB & Partners", "S&R Associates Advocates", "L&L Partners", "eGov Foundation", "BTG Legal", "Zoho"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1759+,
+        totalOffers: 1759,
       },
     },
     address: {
@@ -16613,14 +16701,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:"The University has not released the 2023 placement details as of now. Earlier, more than 230 companies participated in 2022 placements and rolled over 1,200 offers to BSc, BTech, and BCom students. Further, SNU Chennai highest package (domestic) stood at INR 64 LPA and the average package offered was INR 7.54 LPA. Additionally, the average package of the top 10% selections was INR 21.70 LPA.....",
         topRecruiters: ["Facebook", "Amazon", "Apple", "Adobe", "DELL", "Spotify", "PayPal", "SAP", "Barclays", "Hyundai Motor Company", "Cognizant", "Ford Motor Company", "Infosys", "Tata Consultancy Services", "Samsung"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1759+,
+        totalOffers: 1759,
       },
     },
     address: {
@@ -16869,14 +16957,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:"The training and placement division at Chanakya University operates independently and focuses on preparing students for the corporate world's demands, which adhere to the requirements of the regular curriculum. Starting in the first year, CU students receive year-round training from certified instructors to prepare them for upcoming placements. ...",
         topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1759+,
+        totalOffers: 1759,
       },
     },
     address: {
@@ -16939,7 +17027,7 @@ export const Collages = [
       {
         year: "2022",
         award:
-       " Shiv Nadar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+       " Shiv Nadar University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
       },
       {
         year: "2023",
@@ -17125,14 +17213,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
         description:"The training and placement division at Chanakya University operates independently and focuses on preparing students for the corporate world's demands, which adhere to the requirements of the regular curriculum. Starting in the first year, CU students receive year-round training from certified instructors to prepare them for upcoming placements. ...",
         topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1759+,
+        totalOffers: 1759,
       },
     },
     address: {
@@ -17195,7 +17283,7 @@ export const Collages = [
       {
         year: "2022",
         award:
-       " Shiv Nadar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+       " Shiv Nadar University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
       },
       {
         year: "2023",
@@ -17288,17 +17376,16 @@ export const Collages = [
       2022: {
         description: "The training and placement cell of CMR University helps the students to get their desired jobs in their dream companies. The CMR University placement team leads the placement drive at the campus. The placement cell remembers the needs of the major companies and helps in shaping and planning the students' careers. The CMRU placement cell carries out various seminars, workshops, lectures, and many more to prepare the students for their on-campus placement drive. The placement group of CMR University includes the faculty members as well as the students...",
         topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
-
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1144+,
+        totalOffers: 1144,
       },
       2023: {
-        description:"CMR University offers soft skills employability, Quantitative Aptitude & Logical Reasoning training as value-added training programmes. Further, the pre-placement training programmes conducted by CMR University are based on the following topics"
+        description:"CMR University offers soft skills employability, Quantitative Aptitude & Logical Reasoning training as value-added training programmes. Further, the pre-placement training programmes conducted by CMR University are based on the following topics",
         topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1759+,
+        totalOffers: 1759,
       },
     },
     address: {
@@ -17541,14 +17628,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1081+,
+        totalOffers: 1081,
       },
       2023: {
-        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023."
-        topRecruiters: ["IBM", "Chegg India", "Cognizant", "Prodapt", "Wipro", "Accenture", "Capgemini", "Infosys", "DXC Technology"],
+        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023.",
+        topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1085+,
+        totalOffers: 1085,
       },
     },
     address: {
@@ -17611,7 +17698,7 @@ export const Collages = [
       {
         year: "2022",
         award:
-       "Dayananda Sagar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+       "Dayananda Sagar University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
       },
       {
         year: "2023",
@@ -17757,14 +17844,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1081+,
+        totalOffers: 1081,
       },
       2023: {
-        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023."
-        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023.",
+        topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1085+,
+        totalOffers: 1085,
       },
     },
     address: {
@@ -18028,14 +18115,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1081+,
+        totalOffers: 1081,
       },
       2023: {
-        description:"The GCU placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
-        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        description:"The GCU placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers..",
+        topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1085+,
+        totalOffers: 1085,
       },
     },
     address: {
@@ -18211,14 +18298,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1081+,
+        totalOffers: 1081,
       },
       2023: {
-        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
+        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers..",
         topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1085+,
+        totalOffers: 1085,
       },
     },
     address: {
@@ -18392,14 +18479,14 @@ export const Collages = [
 
         careerCenter:
           "The Career Resource Center at the University ensured top placement results in 2023.",
-        totalOffers: 1081+,
+        totalOffers: 1081,
       },
       2023: {
-        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
+        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers..",
         topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
         careerCenter:
           "The 2024 placements saw another round of success for our University with over 2000 offers.",
-        totalOffers: 1085+,
+        totalOffers: 1085,
       },
     },
     address: {
@@ -18696,7 +18783,7 @@ export const Collages = [
       "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
       "Contact Details": "Ask@Carriersnavigators.com"
     }
-  }
+  },
   {
     _id: "doc56",
     name: "PES University",
@@ -18901,7 +18988,7 @@ export const Collages = [
       "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
       "Contact Details": "Ask@Carriersnavigators.com"
     }
-  }
+  },
   {
     "_id": "doc57",
     "name": "Presidency University",
@@ -19062,7 +19149,7 @@ export const Collages = [
       "Courses Offered": "Undergraduate, Postgraduate",
       "Contact Details": "Ask@Carriersnavigators.com"
     }
-  }
+  },
   {
     "_id": "doc58",
     "name": "Rai Technology University",
@@ -19195,7 +19282,7 @@ export const Collages = [
       "Courses Offered": "Undergraduate, Postgraduate",
       "Contact Details": "Ask@Carriersnavigators.com"
     }
-  }
+  },
   {
     "_id": "doc59",
     "name": "Reva University",
