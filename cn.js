@@ -15615,43 +15615,403 @@ export const Collages = [
   },
   {
     _id: "doc43",
-    "name": "Jeppiaar University",
-    "logo": "https://jeppiaaruniversity.ac.in/wp-content/uploads/2022/01/Jeppiaar-University-Logo.png",
-    "image": "https://jeppiaaruniversity.ac.in/wp-content/uploads/2022/01/Jeppiaar-University-Campus.jpg",
-    "speciality": "Technology, Arts, and Sciences",
-    "place": "Chennai",
-    "est": "Estd. 2021",
-    "anothername": "Private University",
-    "agre": "UGC",
-    "location": "Tamil Nadu",
-    "experience": "3 Years",
-    "rating": "4.2",
-    "reviews": "500+",
-    "degree": "Engineering",
-    "field1": "Management Studies",
-    "field2": "Law",
-    "field3": "Pharmacy",
-    "field4": "Sciences",
-    "field5": "Technology",
-    "field6": "Medicine and Allied Science",
-    "field7": "Arts",
-    "field8": "Humanities",
-    "fees": 75,
-    "about": "Jeppiaar University, established in 2021 in Chennai, Tamil Nadu, is a private institution approved by the UGC. It offers a diverse range of undergraduate and postgraduate programs across technology, arts, and sciences.",
-    "overview": "Jeppiaar University, established in 2021 in Chennai, Tamil Nadu, is a private institution approved by the UGC. It offers a diverse range of undergraduate and postgraduate programs across technology, arts, and sciences. The university emphasizes industry-relevant education, aiming to bridge the gap between academia and industry requirements. With a focus on innovation, affordability, and global relevance, Jeppiaar University is committed to shaping the future of students from India and abroad. The campus is equipped with modern facilities, including laboratories, library, and sports amenities, providing an excellent environment for holistic development.",
-    "questions": [
+    name: "Dhanalakshmi Srinivasan University",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUVKuwClEc3nzqM4YWpexqYm3XvetbyEHHHQ&s",
+    image:"https://media.collegedekho.com/media/img/institute/crawled_images/None/dsu-1.jpg?width=1080",
+    speciality: "Sciences & Technology ",
+    place: "Trichy",
+    est: "Estd 2019",
+    anothername: "Deemed to be University",
+    agre: "UGC, AICTE, PCI",
+    location:"Tamilnadu",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "The Dhanalakshmi Srinivasan University (DSU) has been established under the Tamil Nadu Private Universities Act, 2019, located in Tiruchirappali, Tamil Nadu, India...",
+    overview:"The Dhanalakshmi Srinivasan University (DSU) has been established under the Tamil Nadu Private Universities Act, 2019, located in Tiruchirappali, Tamil Nadu, India. Uniqueness of DSU lies in its multi-disciplinary nature in offering a wide range of academic programmes encompassing medicine and engineering. The motto of the institution is 'education for the real world' with dedication and commitment towards nurturing the future generation. There is no dearth of educational institutions in India whose popularity has reached all corners of country. This is one of those organizations that have made their mark in the field of higher learning with their services. It has been a source of knowledge for all those who wish to continue their studies without staying away from their professional hub. Academic coursese provided at DSU are from various disciplines, offerings are from four major streams initially: Medicine, Paramedical, Engineering & Technology and Agricultural Sciences. A combination of School of Medicine and School of Allied Health sciences complement each other. In addition, School of Physiotherapy and College of Nursing posits Health Education holistic in DSU...", //Add more if ypu needed
+    questions: [
       {
-        "question": "What is the admission process?",
-        "answer": "The admission process involves applying online through the university's official website. Candidates must meet the eligibility criteria for their chosen program and may need to appear for entrance examinations as specified by the university."
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
       },
       {
-        "question": "What are the university's facilities?",
-        "answer": "The university offers state-of-the-art laboratories, a comprehensive library, sports facilities, a gymnasium, medical services, a cafeteria, well-equipped laboratories, an auditorium, and hostel accommodations."
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
       },
       {
-        "question": "What is the fee structure?",
-        "answer": "The fee structure varies by course. For instance, the B.Tech program fees range from ₹75,000 to ₹1,50,000 per year. Detailed fee information for each program is available on the university's official website."
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "BA LLB",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹100,000/- Per Semester",
+      },
+      {
+        name: "BArch",
+        duration: "4 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹50,000/- Per Semester",
+      },
+      {
+        name: "B.B.A.",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹20,000/- Per Semester",
+      },
+      {
+        name: "BBA LLB",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹100,000/- Per Semester",
+      },
+      {
+        name: "BCA",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹30,000/- Per Semester",
+      },
+      {
+        name: "BCom",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹25,000/- Per Semester",
+      },
+      {
+        name: "BCom LLB",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹50,000/- Per Semester",
+      },
+      {
+        name: "B.H.A.",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹50,000/- Per Semester",
+      },
+      {
+        name: "B.P.T. Bachelor of Physiotherapy",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹20,000/- Per Semester",
+      },
+      {
+        name: "BA LLB",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹150,000/- Per Year",
+      },
+      {
+        name: "BPharma",
+        duration: "4 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "175,000/- Per Year",
+      },
+      {
+        name: "B.Sc - Cardio Pulmonary & Perfusion Technology",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹175,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹100,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹125,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹150,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹200,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹20,000/- Per Semester",
+      },
+      {
+        name: "BSc",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹30,000/- Per Semester",
+      },
+      {
+        name: "BTech",
+        duration: "4 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹50,000/- Per Semester",
+      },
+      {
+        name: "BTech-CSE",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹75,000/- Per Semester",
+      },
+      {
+        name: "General Nursing and Midwifery (GNM)",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹75,000/- Per Semester",
+      },
+      {
+        name: "MBA",
+        duration: "2 Year",
+        type: "FulTime",
+        category: "PG",
+        fees: "₹75,000/- Per Semester",
+      },
+      {
+        name: "MCA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹50,000/- Per Semester",
+      },
+      {
+        name: "M.H.A.",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹100,000/- Per Semester",
+      },
+      {
+        name: "MPT",
+        duration: "2 Year",
+        type: "FulTime",
+        category: "PG",
+        fees: "₹150,000/- Per Semester",
+      },
+      {
+        name: "D.Pharm.",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "Diploma",
+        fees: "₹100,000/- Per Year",
+      },
+
+      {
+        name: "MSc-Dialysis Technology/Medical Microbiology/Medical Biochemistry",
+        duration: "2 Year",
+        type: "FulTime",
+        category: "PG",
+        fees: "₹100,000/- Per Year",
+      },
+      {
+        name: "B.Sc Nursing",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹200,000/- Per Year",
+      },
+      {
+        name: "B.Sc (Hons.) Agriculture",
+        duration: "3 Years",
+        type: "FulTime",
+        category: "PG",
+        fees: "₹87,000/- Per Semester",
+      },
+      {
+        name: "B.Sc (Hons.) Agriculture",
+        duration: "3 Years",
+        type: "FulTime",
+        category: "PG",
+        fees: "₹50,000/- Per Semester",
+      },
+      
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "There is something very special about this institution as far as placements are concerned. The performance on that front is always more than satisfactory. Students here have made in ways into top companies in the corporate world and have brought glory to their alma mater. It would not be a surprise to say that, there is no company in the biz world, where you would not find a student of this institution performing their duties to the best of their abilities...",
+        topRecruiters: [-],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:
+          "Earlier, as per the NIRF report 2023, 629 UG and 82 PG students were placed during 2022 placements. The median package offered to BTech and BDS students was INR 4.2 LPA and INR 6.6 LPA, respectively. The median package offered to PG (2-year) and PG (3-year) students during Sri Siddhartha Academy of Higher Education placements 2022 was INR 4.2 LPA and INR 12 LPA, respectively.......",
+        topRecruiters: [-],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1893+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
       }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+          "Dhanalakshmi Srinivasan University received the Best University Award.",
+      },
+      {
+        year: "2023",
+        award: "Awarded for highest placement offers in Karnataka.",
+      },
+      {
+        year: "2024",
+        award: "Dhanalakshmi Srinivasan University received the Best University Award.",
+      },
+    ],
+
+    highlights: {
+      Established: "2019",
+      Type: "Deemed to be University",
+      Affiliation: "UGC",
+      Location: "Trichy ,Tamilnadu",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc44",
+    name: "Jeppiaar University",
+    logo : "https://media.collegedekho.com/media/img/institute/logo/Screenshot_from_2024-05-20_15-55-02.png",
+    image:"https://media.collegedekho.com/media/img/institute/crawled_images/col5.jpg",
+    speciality: "Sciences & Technology ",
+    place: "Chennai",
+    est: "Estd. 2021",
+    anothername: "State Private University",
+    agre: "UGC, AICTE",
+    location:"Tamilnadu",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Jeppiaar University caters to a diverse range of academic interests, offering programs in technology, arts, and sciences. These programs are meticulously designed to impart not just theoretical knowledge but also to focus on their industry relevance. With a focus on innovation, affordability, and global relevance, the university is on a mission to shape the future of countless students from India and abroad, giving them a unique international educational experience to grow and lead the world...",
+    overview:"Welcome to Jeppiaar University At Jeppiaar University, we are committed to providing an inclusive, innovative, and impactful educational experience. Situated in a dynamic environment that encourages learning and growth, we offer a wide range of programs designed to meet the demands of today’s competitive world. Our mission is to empower students to excel in academics, research, and personal development, nurturing them into future leaders and global citizens. Why Choose Jeppiaar University? Quality Education: With a focus on excellence, our programs are designed to equip students with both foundational and advanced knowledge across various fields. Our experienced faculty members bring their expertise and insights, ensuring that students gain a thorough understanding of their chosen disciplines. State-of-the-Art Facilities: From modern laboratories and research centers to extensive libraries and recreational facilities, our campus is equipped to support students in their academic pursuits and extracurricular interests. Research and Innovation: At Jeppiaar University, we believe in the power of research to drive change. We encourage students and faculty to engage in innovative projects that address real-world problems, fostering a culture of exploration and problem-solving. Holistic Development: Education goes beyond academics. We emphasize personal growth, leadership skills, and values that prepare our students for success in both their professional and personal lives...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
     ],
     courses: [
       {
@@ -15850,24 +16210,3355 @@ export const Collages = [
         category: "Diploma",
         fees: "-",
       },
+      
+    ],
+    placement: {
+      2022: {
+        description: "There is something very special about this institution as far as placements are concerned. The performance on that front is always more than satisfactory. Students here have made in ways into top companies in the corporate world and have brought glory to their alma mater. It would not be a surprise to say that, there is no company in the biz world, where you would not find a student of this institution performing their duties to the best of their abilities...",
+        topRecruiters: [ATOS],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:
+          "Earlier, as per the NIRF report 2023, 629 UG and 82 PG students were placed during 2022 placements. The median package offered to BTech and BDS students was INR 4.2 LPA and INR 6.6 LPA, respectively. The median package offered to PG (2-year) and PG (3-year) students during Sri Siddhartha Academy of Higher Education placements 2022 was INR 4.2 LPA and INR 12 LPA, respectively.......",
+        topRecruiters: [ATOS],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1893+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+          "Jeppiaar University received the Best University Award.",
+      },
+      {
+        year: "2023",
+        award: "Awarded for highest placement offers in Karnataka.",
+      },
+      {
+        year: "2024",
+        award: "Jeppiaar University received the Best University Award.",
+      },
+    ],
+
+    highlights: {
+      Established: "2021",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Chennai ,Tamilnadu",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc45",
+    name: "Sai University",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhKwsBnhAN2hTRAGu6kgNHQqPQ690_dEk4g&s",
+    image:"https://images.shiksha.com/mediadata/images/1621511678phpZHWUmi.jpeg",
+    speciality: "Sciences & Technology ",
+    place: "Chennai",
+    est: "Estd. 2018",
+    anothername: "State Private University",
+    agre: "Sai University act",
+    location:"Tamilnadu",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Jeppiaar University caters to a diverse range of academic interests, offering programs in technology, arts, and sciences. These programs are meticulously designed to impart not just theoretical knowledge but also to focus on their industry relevance. With a focus on innovation, affordability, and global relevance, the university is on a mission to shape the future of countless students from India and abroad, giving them a unique international educational experience to grow and lead the worldSai University, Chennai, a private institution established under the Sai University Act, 2018 by the Tamil Nadu State Legislature, offers a diverse range of undergraduate and postgraduate programs in Humanities, Science, Engineering, and Law. Renowned courses include a 4-year B.Tech in Computing & Data Science, a 5-year Integrated BALLB, and 1-year LM courses across four specializations...",
+    overview:"Welcome to Jeppiaar University At Jeppiaar University, we are committed to providing an inclusive, innovative, and impactful educational experience. Situated in a dynamic environment that encourages learning and growth, we offer a wide range of programs designed to meet the demands of today’s competitive world. Our mission is to empower students to excel in academics, research, and personal development, nurturing them into future leaders and global citizens. Why Choose Jeppiaar University? Quality Education: With a focus on excellence, our programs are designed to equip students with both foundational and advanced knowledge across various fields. Our experienced faculty members bring their expertise and insights, ensuring that students gain a thorough understanding of their chosen disciplines. State-of-the-Art Facilities: From modern laboratories and research centers to extensive libraries and recreational facilities, our campus is equipped to support students in their academic pursuits and extracurricular interests. Research and Innovation: At Jeppiaar University, we believe in the power of research to drive change. We encourage students and faculty to engage in innovative projects that address real-world problems, fostering a culture of exploration and problem-solving. Holistic Development: Education goes beyond academics. We emphasize personal growth, leadership skills, and values that prepare our students for success in both their professional and personal livesSai University, Chennai, a private institution established under the Sai University Act, 2018 by the Tamil Nadu State Legislature, offers a diverse range of undergraduate and postgraduate programs in Humanities, Science, Engineering, and Law. Renowned courses include a 4-year B.Tech in Computing & Data Science, a 5-year Inte grated BALLB, and 1-year LM courses across four specializations.Sai University envisions global eminence in education through collaborative interdisciplinary learning and high-impact programs. It pioneers liberal education across diverse fields, providing innovative curricula and state-of-the-art facilities. Led by Prof. Jamshed Bharucha, students receive exposure to emerging technologies and industries, shaping them into future-ready leaders. With renowned faculty and vibrant programs, Sai University offers a unique and transformative learning experience....", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "Bachelor of Arts + Bachelor of Laws [BALLB] {Hons.}",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹400,000/- Per Year",
+      },
+      {
+        name: "Bachelor of Science [B.Sc] {Hons.}",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹600,000/- Per Year",
+      },
+      {
+        name: "B.Tech",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹400,000/- Per Year",
+      },
+      {
+        name: "Master of Laws [L.L.M.]",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹400,000/- Per Year",
+      },
+      {
+        name: "B.Sc {Hons.}",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹400,000/- Per Year",
+      },
+      {
+        name: "Bachelor of Arts [BA] {Hons.}",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹400,000/- Per Year",
+      },
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "Global Networking Opportunities: Faculty and visiting professors from diverse legal fields worldwide offer extensive networking avenues. Students connect with international influencers and explore internship opportunities with major law firms and policy think tanks....",
+        topRecruiters: ["AZB & Partners", "S&R Associates Advocates", "L&L Partners", "eGov Foundation", "BTG Legal", "Zoho"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:"Offers placement assistance through campus recruitment and other activities. Organizes lectures, seminars, group discussions, mock interviews, etc., for career guidance, entrepreneurship, and personality development......",
+        topRecruiters: ["AZB & Partners", "S&R Associates Advocates", "L&L Partners", "eGov Foundation", "BTG Legal", "Zoho"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1759+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+          "Sai University received the Best University Award.",
+      },
+      {
+        year: "2023",
+        award: "Awarded for highest placement offers in Karnataka.",
+      },
+      {
+        year: "2024",
+        award: "Sai University received the Best University Award.",
+      },
+    ],
+
+    highlights: {
+      Established: "2018",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Chennai ,Tamilnadu",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc46",
+    name: "Shiv Nadar University",
+    logo : "https://lh5.googleusercontent.com/p/AF1QipPwc337BeMEFWeh66cFkpwWH0bJ1NFHknNvG42Y=w900-h900-k-no-p",
+    image:"https://snu.edu.in/site/assets/files/1340/why-shiv-nadar.345x200.1600x0.webp",
+    speciality: "Sciences & Technology ",
+    place: "Chennai",
+    est: "Estd. 2021",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Tamilnadu",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Shiv Nadar University, through four schools of study, offers PG, UG, PhD, and various other courses to students. These courses are provided across the Commerce, Engineering, and various other streams. Located in Old Mahabalipuram Road, Chennai,...",
+    overview:"Shiv Nadar University, through four schools of study, offers PG, UG, PhD, and various other courses to students. These courses are provided across the Commerce, Engineering, and various other streams. Located in Old Mahabalipuram Road, Chennai,..", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "B.Tech. in AI and Data Science",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees:"12L/- Per Total",
+      },
+      {
+        name: "B.Tech. in Computer Science Engineering with Internet of Things",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹12 L/- Per Total",
+      },
+      {
+        name: "B.Tech. in Computer Science and Engineering (Cyber Security)",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹12 L/- Per Total",
+      },
+      {
+        name: "Bachelor of Commerce (B.Com.)",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹7.5 L/- Per Total",
+      },
+      {
+        name: "B.Com. in Professional Accounting",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "UG",
+        fees: "₹7.5 L/- Per TOtal",
+      },
+      {
+        name: "B.Sc. in Economics (Data Science)",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹7.5L/- Per Total",
+      },
+      {
+        name: "Ph.D. in Artificial Intelligence",
+        duration: "3 Year",
+        type: "FulTime",
+        category: "phD",
+        fees: "₹72K /- Per TOtal",
+      },
+      {
+        name: "Ph.D. in Management",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "phD",
+        fees: "₹72K/- Per Total",
+      },
+      {
+        name: "M.Tech. in Artificial Intelligence and Data Science",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹3L/- Per Total",
+      },
+    ],
+    placement: {
+      2022: {
+        description: "The 2023 SNU Chennai placement data has not been disclosed. As per the official website, over 230 organisations participated in SNU Chennai placements 2022 and offered more than 1,200 job offers. The highest domestic package offered during Shiv Nadar University Chennai placements 2022 was INR 64 LPA and the average package stood at INR 7.54 LPA. Facebook, Apple, and Spotify were some of the leading companies that offered international opportunities over the years. ....",
+        topRecruiters: ["Facebook", "Amazon", "Apple", "Adobe", "DELL", "Spotify", "PayPal", "SAP", "Barclays", "Hyundai Motor Company", "Cognizant", "Ford Motor Company", "Infosys", "Tata Consultancy Services", "Samsung"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:"The University has not released the 2023 placement details as of now. Earlier, more than 230 companies participated in 2022 placements and rolled over 1,200 offers to BSc, BTech, and BCom students. Further, SNU Chennai highest package (domestic) stood at INR 64 LPA and the average package offered was INR 7.54 LPA. Additionally, the average package of the top 10% selections was INR 21.70 LPA.....",
+        topRecruiters: ["Facebook", "Amazon", "Apple", "Adobe", "DELL", "Spotify", "PayPal", "SAP", "Barclays", "Hyundai Motor Company", "Cognizant", "Ford Motor Company", "Infosys", "Tata Consultancy Services", "Samsung"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1759+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       "Shiv Nadar University received the Best University Award.",
+      },
+      {
+        year: "2023",
+        award: "Awarded for highest placement offers in Karnataka.",
+      },
+      {
+        year: "2024",
+        award: "Shiv Nadar University received the Best University Award.",
+      },
+    ],
+
+    highlights: {
+      Established: "2021",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Chennai ,Tamilnadu",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc47",
+    name: "Chanakya University",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNvrfggk5SN_QsvW0lYLVMavx_ZjRVkeJgg&s",
+    image:"https://chanakyauniversity.edu.in/wp-content/uploads/2023/03/banner.jpg",
+    speciality: "Sciences & Technology ",
+    place: "Bengaluru",
+    est: "Estd 2022",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Chanakya University is one of the best private universities which is situated in Bangalore, Karnataka. The university has been recognised by UGC and also been approved by AICTE, New Delhi. With a strong commitment to building a leading knowledge movement, The university is a global learning destination where students can rise higher with ideas and succeed throughout time with rich understanding (jñāna), an unwavering will (ichhā), and meaningful action (kriyā). The Chanakya University courses are offered to interested candidates at the undergraduate, postgraduate as well as doctoral levels...",
+    overview:"Chanakya University is one of the best private universities which is situated in Bangalore, Karnataka. The university has been recognised by UGC and also been approved by AICTE, New Delhi. With a strong commitment to building a leading knowledge movement, The university is a global learning destination where students can rise higher with ideas and succeed throughout time with rich understanding (jñāna), an unwavering will (ichhā), and meaningful action (kriyā). The Chanakya University courses are offered to interested candidates at the undergraduate, postgraduate as well as doctoral levels. More than 50 courses are offered to interested candidates in the stream of science, arts, commerce, engineering, management and more. All these courses are offered in the regular, offline mode to the candidates.  Chanakya University admissions are done both based on merit as well as performance in the entrance exams. Various entrance exams are accepted by the university for admission such as CUET UG, CUPP, Karataka PGECET, CAT and more for admission to the various courses. The Chanakya University campus is spread over an area of 116 acres and offers various facilities to the candidates such as separate hostels for men and women, a gym, a library, wi-fi connectivity, a health centre, IT infrastructure, bank facilities, and many more. The university has collaborated with several other universities worldwide for research projects, conferences, and publications. The university also includes a separate placement cell for all tasks associated with placement. With the assistance of the participating recruiters, the Chanakya University placement cell arranges placement drives every year to allow students to start their jobs before they even finish their degrees. Pre-placement interviews, webinars, seminars, training sessions, and other events are frequently held at the college. It also has a track record of connecting students with some of the nation's top recruiters...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "BA",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "PG",
+        fees:"Rs 95,000 - Rs 1,50,000/- Per Year",
+      },
+      {
+        name: "B.Tech",
+        duration: "4 Years",
+        type: "FulTime",
+        category: "PG",
+        fees: "Rs 2,05,000 - Rs 3,05,000/- Per Year",
+      },
+      {
+        name: "BBA",
+        duration: "3 - 4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,35,000 - Rs 1,50,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 - 4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 75,000 - Rs 95,000/- Per Year",
+      },
+      {
+        name: "BCA",
+        duration: "3 - 4 Years",
+        type: "FulTime",
+        category: "UG",
+        fees: "Rs 1,20,000 - Rs 1,40,000/- Per Year",
+      },
+      {
+        name: "B.Com",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,00,000/- Per Year",
+      },
+      {
+        name: "BA + LLB",
+        duration: "5 Year",
+        type: "FulTime",
+        category: "phD",
+        fees: "Rs 1,25,000/- Per Year",
+      },
+      {
+        name: "MSc",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "phD",
+        fees: "Rs 95,000 - Rs 1,10,000/- Per Year",
+      },
+      {
+        name: "MBA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 3,00,000/- Per Year",
+      },
+      {
+        name: "MA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 75,000/- Per Year",
+      },
+      {
+        name: "Masters",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 3,00,000/- Per Year",
+      },
+      {
+        name: "LLM",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,00,000/- Per Year",
+      },
+      {
+        name: "M.Com",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 95,000/- Per Year",
+      },
+      {
+        name: "MSW",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 75,000/- Per Year",
+      },
+      {
+        name: "MCA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,75,000/- Per Year",
+      },
+      {
+        name: "PGD",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 5,50,000/- Per Year",
+      },
+      
+    ],
+    placement: {
+      2022: {
+        description: "Chanakya University has its own training and placement cell which organises campus interviews for the students as well as provides them with career guidance. Chanakya University placements 2023 has not been released yet, but candidates can refer to the previous placement information for a general idea. It helps students improve their interview and communication abilities to get placed during Chanakya University placements...",
+        topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:"The training and placement division at Chanakya University operates independently and focuses on preparing students for the corporate world's demands, which adhere to the requirements of the regular curriculum. Starting in the first year, CU students receive year-round training from certified instructors to prepare them for upcoming placements. ...",
+        topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1759+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       " Shiv Nadar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: " Shiv Nadar University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2022",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Chennai ,Tamilnadu",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc47",
+    name: "Chanakya University",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNvrfggk5SN_QsvW0lYLVMavx_ZjRVkeJgg&s",
+    image:"https://chanakyauniversity.edu.in/wp-content/uploads/2023/03/banner.jpg",
+    speciality: "Sciences & Technology ",
+    place: "Bengaluru",
+    est: "Estd 2022",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Chanakya University is one of the best private universities which is situated in Bangalore, Karnataka. The university has been recognised by UGC and also been approved by AICTE, New Delhi. With a strong commitment to building a leading knowledge movement, The university is a global learning destination where students can rise higher with ideas and succeed throughout time with rich understanding (jñāna), an unwavering will (ichhā), and meaningful action (kriyā). The Chanakya University courses are offered to interested candidates at the undergraduate, postgraduate as well as doctoral levels...",
+    overview:"Chanakya University is one of the best private universities which is situated in Bangalore, Karnataka. The university has been recognised by UGC and also been approved by AICTE, New Delhi. With a strong commitment to building a leading knowledge movement, The university is a global learning destination where students can rise higher with ideas and succeed throughout time with rich understanding (jñāna), an unwavering will (ichhā), and meaningful action (kriyā). The Chanakya University courses are offered to interested candidates at the undergraduate, postgraduate as well as doctoral levels. More than 50 courses are offered to interested candidates in the stream of science, arts, commerce, engineering, management and more. All these courses are offered in the regular, offline mode to the candidates.  Chanakya University admissions are done both based on merit as well as performance in the entrance exams. Various entrance exams are accepted by the university for admission such as CUET UG, CUPP, Karataka PGECET, CAT and more for admission to the various courses. The Chanakya University campus is spread over an area of 116 acres and offers various facilities to the candidates such as separate hostels for men and women, a gym, a library, wi-fi connectivity, a health centre, IT infrastructure, bank facilities, and many more. The university has collaborated with several other universities worldwide for research projects, conferences, and publications. The university also includes a separate placement cell for all tasks associated with placement. With the assistance of the participating recruiters, the Chanakya University placement cell arranges placement drives every year to allow students to start their jobs before they even finish their degrees. Pre-placement interviews, webinars, seminars, training sessions, and other events are frequently held at the college. It also has a track record of connecting students with some of the nation's top recruiters...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "BA",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "PG",
+        fees:"Rs 95,000 - Rs 1,50,000/- Per Year",
+      },
+      {
+        name: "B.Tech",
+        duration: "4 Years",
+        type: "FulTime",
+        category: "PG",
+        fees: "Rs 2,05,000 - Rs 3,05,000/- Per Year",
+      },
+      {
+        name: "BBA",
+        duration: "3 - 4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,35,000 - Rs 1,50,000/- Per Year",
+      },
+      {
+        name: "BSc",
+        duration: "3 - 4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 75,000 - Rs 95,000/- Per Year",
+      },
+      {
+        name: "BCA",
+        duration: "3 - 4 Years",
+        type: "FulTime",
+        category: "UG",
+        fees: "Rs 1,20,000 - Rs 1,40,000/- Per Year",
+      },
+      {
+        name: "B.Com",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,00,000/- Per Year",
+      },
+      {
+        name: "BA + LLB",
+        duration: "5 Year",
+        type: "FulTime",
+        category: "phD",
+        fees: "Rs 1,25,000/- Per Year",
+      },
+      {
+        name: "MSc",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "phD",
+        fees: "Rs 95,000 - Rs 1,10,000/- Per Year",
+      },
+      {
+        name: "MBA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 3,00,000/- Per Year",
+      },
+      {
+        name: "MA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 75,000/- Per Year",
+      },
+      {
+        name: "Masters",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 3,00,000/- Per Year",
+      },
+      {
+        name: "LLM",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,00,000/- Per Year",
+      },
+      {
+        name: "M.Com",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 95,000/- Per Year",
+      },
+      {
+        name: "MSW",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 75,000/- Per Year",
+      },
+      {
+        name: "MCA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,75,000/- Per Year",
+      },
+      {
+        name: "PGD",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 5,50,000/- Per Year",
+      },
+      
+    ],
+    placement: {
+      2022: {
+        description: "Chanakya University has its own training and placement cell which organises campus interviews for the students as well as provides them with career guidance. Chanakya University placements 2023 has not been released yet, but candidates can refer to the previous placement information for a general idea. It helps students improve their interview and communication abilities to get placed during Chanakya University placements...",
+        topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:"The training and placement division at Chanakya University operates independently and focuses on preparing students for the corporate world's demands, which adhere to the requirements of the regular curriculum. Starting in the first year, CU students receive year-round training from certified instructors to prepare them for upcoming placements. ...",
+        topRecruiters: ["Google", "Amazon", "Microsoft", "Tata Consultancy Services (TCS)", "Infosys", "Deloitte", "Accenture", "IBM", "Capgemini", "Cognizant"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1759+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       " Shiv Nadar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: " Shiv Nadar University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2022",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Bengaluru ,Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc48",
+    name: "CMR University",
+    logo : "https://upload.wikimedia.org/wikipedia/en/d/d3/CMRU_logo.jpg",
+    image:"https://www.cmr.edu.in/wp-content/uploads/2022/05/CMRU-OMBR-CAMPUS-1.webp",
+    speciality: "Sciences & Technology ",
+    place: "Bengaluru",
+    est: "Estd 2013",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "CMR University Seamedu, Bangalore is a private university in Karnataka, established in 2013 under Act 45 by the CMR Jnanadhara Trust. The university's vision is “To nurture creative thinkers who will drive positive global change.”..",
+    overview:"CMR University Seamedu, Bangalore Courses include B.Sc in Filmmaking, Game art and Design, Photography, Sound engineering, Visual Effects and Animation, and BCA in Game Development. CMR University Seamedu, Bangalore Campus developed as per LEED Green Building certification standards. All the facilities required for interactive learning like the library, laboratory, classrooms with audio-visual aids, and auditorium are there. It also has international standard sports facilities. Separate hostels are available for boys and girls. CMR University Seamedu, Bangalore Placement cell conducts mock interviews, group discussions, grooming classes, and online tests regularly for the students to help them get jobs easily. They also help the students to crack exams like  like GRE, TOEFL, CMAT, CAT, Bank PO, etc. CMR University Seamedu, Bangalore Placement Record shows that more than 200 recruiters have visited the college for campus interview in the recent years. ...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "BSc",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees:"Rs 1,50,000 - 2,50,000/- Per Year",
+      },
+      {
+        name: "BCA",
+        duration: "3 Years",
+        type: "FulTime",
+        category: "PG",
+        fees: "Rs 1,50,000/- Per Year",
+      },
+      {
+        name: "PhD",
+        duration: "3 - 4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "-/- Per Year",
+      },
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "The training and placement cell of CMR University helps the students to get their desired jobs in their dream companies. The CMR University placement team leads the placement drive at the campus. The placement cell remembers the needs of the major companies and helps in shaping and planning the students' careers. The CMRU placement cell carries out various seminars, workshops, lectures, and many more to prepare the students for their on-campus placement drive. The placement group of CMR University includes the faculty members as well as the students...",
+        topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1144+,
+      },
+      2023: {
+        description:"CMR University offers soft skills employability, Quantitative Aptitude & Logical Reasoning training as value-added training programmes. Further, the pre-placement training programmes conducted by CMR University are based on the following topics"
+        topRecruiters: ["Flipkart India Pvt Ltd", "HP Enterprise Limited", "ITORIZON India Pvt Limited", "Ivoyant India Pvt Ltd", "IDC Technologies Incorporation Pvt Ltd", "Intellipaat India Pvt Ltd", "LG Soft India Pvt. Ltd.", "Maintec Technologies Pvt Ltd", "JoulestoWatts Business Solutions Pvt Ltd", "Mitsubishi Elevators India Pvt Ltd", "Mobisy Technologies Pvt Ltd", "L&L Security Services Pvt Ltd"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1759+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       " CMR University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: " CMR University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2013",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc49",
+    name: "Dayananda Sagar University",
+    logo : "https://i.pinimg.com/736x/10/4d/ae/104dae583da2cf4ff7ad1bf51cd8d262.jpg",
+    image:"https://www.dsu.edu.in/images/3.jpg",
+    speciality: "Sciences & Technology ",
+    place: "Bengaluru",
+    est: "Estd 2014",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Dayananda Sagar University is a private university, situated in Bangalore. It was established in the year 2014 and is a component of the Dayananda Sagar Institutions founded in the 1960s by the visionary educationist late Sri Dayananda Sagar. The university is managed by the Mahatma Gandhi Vidya Peeth Trust in Bengaluru...",
+    overview:"Dayananda Sagar University is a private university, situated in Bangalore. It was established in the year 2014 and is a component of the Dayananda Sagar Institutions founded in the 1960s by the visionary educationist late Sri Dayananda Sagar. The university is managed by the Mahatma Gandhi Vidya Peeth Trust in Bengaluru. Dayananda Sagar University is approved by the All India Council for Technical Education (AICTE). It is recognised by the University Grants Commission (UGC) and accredited with the NAAC “A” grade. The institution came in first place at the International Collegiate Programming Contest (ICPC) India Regional Finals and is placed fourth among new universities by the Karnataka Rating Framework (KSURF). The Best Private University South Award has also been given to DSU by ASSOCHAM.  Dayananda Sagar University courses are offered a wide range of undergraduate and graduate courses in technology, pharmacy, management, computer applications, sciences, the arts, and physiotherapy. DSU also provides a PhD in Research. The university offers admission based on performance in qualifying exams or through entrance tests. ...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "B.Tech",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 2,79,000 - Rs 3,54,000 Per Year"
+      },
+      {
+        name: "MBA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 5,54,000 Per Year"
+      },
+      {
+        name: "M.Tech",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,44,000 Per Year"
+      },
+      {
+        name: "BCA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,79,000 Per Year"
+      },
+      {
+        name: "BBA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,84,000 Per Year"
+      },
+      {
+        name: "BSc",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,29,000 Per Year"
+      },
+      {
+        name: "B.Sc (Hons)",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,54,000 Per Year"
+      },
+      {
+        name: "B.Com",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,34,000 - Rs 1,59,000 Per Year"
+      },
+      {
+        name: "BA+LLB",
+        duration: "5 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,79,000 - Rs 2,29,000 Per Year"
+      },
+      {
+        name: "BBA+LLB",
+        duration: "5 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,79,000 - Rs 2,29,000 Per Year"
+      },
+      {
+        name: "B.Pharm",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 68,450 - Rs 2,54,000 Per Year"
+      },
+      {
+        name: "MCA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,13,760 - Rs 3,04,000 Per Year"
+      },
+      {
+        name: "B.Voc",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 44,000 Per Year"
+      },
+      {
+        name: "LLB",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,54,000 Per Year"
+      },
+      {
+        name: "MPT",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,11,750 - Rs 2,29,000 Per Year"
+      }
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "In Dayananda Sagar University placement drive, there was a slight decrease of approximately 5.5% in the highest package compared to 2022. The highest package for 2023 was Rs 25.5 lakh per annum, while in 2022, it was Rs 27 lakh per annum..",
+        topRecruiters: ["Capgemini", "Mindtree", "Cognizant", "Talentserve", "The Math Company", "Virtusa", "Nokia", "Brillio", "Accenture"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1081+,
+      },
+      2023: {
+        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023."
+        topRecruiters: ["IBM", "Chegg India", "Cognizant", "Prodapt", "Wipro", "Accenture", "Capgemini", "Infosys", "DXC Technology"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1085+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       "Dayananda Sagar University was awarded the "Best University Award" in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: "Dayananda Sagar University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2014",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc50",
+    name: "G. M. University",
+    logo : "https://i.ytimg.com/vi/DH5fJ9wFUjo/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHmAoAC6AKKAgwIABABGCkgMyh_MA8=&rs=AOn4CLBp9G88xhRJSWH9fTm28Z3-k17e6w",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaRkIVgluMNg_62ZZx7b1zIvmQjhkaZouvAA&s",
+    speciality: "Sciences & Technology ",
+    place: "Davanagere",
+    est: "Estd 2001",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "GM University is a private university established in the year 2021. The college is affiliated with State of Karnataka (Act No. 19 of 2023) and approved by the University Grants Commission (UGC). Located at Davanagere, GM University offers a total of 13 courses in 57 different specialisations at undergraduate as well as postgraduate levels....",
+    overview:"GM University is a private university established in the year 2021. The college is affiliated with State of Karnataka (Act No. 19 of 2023) and approved by the University Grants Commission (UGC). Located at Davanagere, GM University offers a total of 13 courses in 57 different specialisations at undergraduate as well as postgraduate levels. A few popular courses offered by the GM University are B.Tech CSE, B.Tech AI & ML, B.Tech Biotechnology, BCA, BBA, B.Com, M.Tech in Deep Learning, MCA, MBA, etc. The college provides admission on the basis of entrance exams and the merit of the qualifying examination. The entrance exams accepted for admission to GM University are KCET as well as Karnataka PGCET.The college has a placement cell for the training and placement of students. Further, GM University provides merit-based and need-based scholarships to eligible students. Its campus has modern facilities and infrastructure including a canteen, hostels, auditorium, spacious classrooms, transportation facilities, library, etc. for the holistic development of the students. ..", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "BTech",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,75,000 to Rs 2,50,000 Per Year"
+      },
+      {
+        name: "M.Tech",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,25,000 Per Year"
+      },
+      {
+        name: "MSc",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 75,000 to Rs 1,00,000 Per Year"
+      },
+      {
+        name: "MCom",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 85,000 Per Year"
+      },
+      {
+        name: "MBA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,65,000 Per Year"
+      },
+      {
+        name: "MCA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,35,000 Per Year"
+      },
+      {
+        name: "BCA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 85,000 Per Year"
+      },
+      {
+        name: "BSc",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 50,000 to Rs 95,000 Per Year"
+      },
+      {
+        name: "BCom",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 60,000 to Rs 75,000 Per Year"
+      },
+      {
+        name: "BBA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 60,000 Per Year"
+      }
+      
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "In GM University placement drive, there was a slight decrease of approximately 5.5% in the highest package compared to 2022. The highest package for 2023 was Rs 25.5 lakh per annum, while in 2022, it was Rs 27 lakh per annum..",
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1081+,
+      },
+      2023: {
+        description:"The total number of companies that participated in the placements decreased in 2023 to over 250, compared to 311 in 2022. However, the university still managed to secure over 490 offers in 2023."
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1085+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       "GM University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: "GM University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2001",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Davanagere, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc51",
+    name: "Garden City University",
+    logo : "https://physiocare.gardencity.university/wp-content/uploads/2021/08/cropped-GCUappad.png",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuOb9QPe-xd-6Zz6YDwl5e1BNLcw8ezpvbaQ&s",
+    speciality: "Sciences & Technology ",
+    place: "Bengaluru",
+    est: "Estd 2017",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Garden City University application process for the 2024 academic year for all the offered courses is ongoing. For admission to the B.Tech courses, the KCET seat allotment Round 1 is on August 21, 2024, while the JEE Main session 1 application is expected to start by November 2024 and the exam is expected to be held by the last week of January 2025. For MBA, the last date for KMAT is August 31, 2024, and Karnataka PGCET results are expected on September 3, 2024. Garden City University fee ranges from Rs 12,500 to Rs 2,75,000 annually..",
+    overview:"Garden City University also known as GCU was established under the Karnataka State Act no. 47 of 2013. The university has been recognised by the University Grants Commission. The Governor of Karnataka signed the Garden City University Act on March 26, 2013, and it was published in the Karnataka Gazette on April 12, 2013. As a result, GCU, Bengaluru, has been added to the approved private universities in India by the University Grants Commission. Garden City University courses are offered at the undergraduate and postgraduate levels. BA, BSc, B.Com, BBA, BCA, MSc and M.Com are some of the popular courses. The courses are offered under various schools of studies and departments that have been tabulated below: Garden City University admission to its various courses is offered on the basis of the merit of the qualifying exam. The university is accepting applications for admission and one has to visit the official website. The university organises Garden City University placement drives every year to roll out job opportunities to the final year students. The university has been successful in placing students at esteemed organisations such as Axis Bank, Google, KPMG, Ernst & Young, etc...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      {
+        name: "MA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 72,500 - Rs 2,05,000 Per Year"
+      },
+      {
+        name: "Certificate",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 12,500 Per Year"
+      },
+      {
+        name: "BA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 90,000 Per Year"
+      },
+      {
+        name: "MBA",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 2,00,000 - Rs 2,12,000 Per Year"
+      },
+      {
+        name: "BSc",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 90,000 Per Year"
+      },
+      {
+        name: "BCA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,10,000 Per Year"
+      },
+      {
+        name: "B.Tech",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 3,00,000 Per Year"
+      },
+      {
+        name: "BBA",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 90,000 Per Year"
+      },
+      {
+        name: "Diploma",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 81,000 Per Year"
+      },
+      {
+        name: "MSc",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,02,000 - Rs 2,50,000 Per Year"
+      },
+      {
+        name: "PhD",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 1,10,000 - Rs 2,15,000 Per Year"
+      },
+      {
+        name: "B.Com",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 90,000 Per Year"
+      },
+      {
+        name: "PGDM",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 2,75,000 Per Year"
+      },
+      {
+        name: "BPT",
+        duration: "4 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 1,40,000 Per Year"
+      },
+      {
+        name: "M.Com",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 72,500 Per Year"
+      },
+      {
+        name: "MPT",
+        duration: "2 Years",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 2,30,000 Per Year"
+      },
+      {
+        name: "BHM",
+        duration: "3 Years",
+        type: "Full Time",
+        category: "UG",
+        fees: "Rs 4,45,000 Per Year"
+      },
+      {
+        name: "PGD",
+        duration: "1 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "Rs 35,000 - Rs 2,75,000 Per Year"
+      }
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "The GCU placement cell is well connected with the best business houses in and beyond Bangalore and young and prospering start-ups. It is well equipped with state-of-the-art facilities to place well-trained students..",
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1081+,
+      },
+      2023: {
+        description:"The GCU placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1085+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       "Garden City University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: "Garden City University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "2017",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc52",
+    name: "JSS Science & Technology University",
+    logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfpHUnMSG7hg09-43nTMWVG-U1qipdnJlX4g&s",
+    image:"https://collegekeeda.com/wp-content/uploads/2024/02/JSS-Science-and-Technology-University.webp",
+    speciality: "Sciences & Technology ",
+    place: "Mysore",
+    est: "Estd 1963",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "JSS Science and Technology University [JSS STU] is a well-renowned private institute and has been approved by AICTE and UGC. With a sprawling 102 acres campus filled with state-of-the-art facilities.",
+    overview:"JSS Science and Technology University [JSS STU] is a well-renowned private institute and has been approved by AICTE and UGC. With a sprawling 102 acres campus filled with state-of-the-art facilities. It provides various undergraduate, postgraduate, and Ph.D. programs with multiple specializations under every course.  Admission procedure takes place online after the results for the various entrance exams have been announced. Apart from studies the institute also focuses on the extra-curricular growth of its students and has various student clubs, fests, and sports facilities available for them...", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      [
+        {
+          "name": "BE",
+          "courses": "13 Courses",
+          "fees": "₹4.17 Lakhs - 10.66 Lakhs (Total Fees)",
+          "duration": "4 Years",
+          "category": "UG"
+        },
+        {
+          "name": "MBA",
+          "courses": "6 Courses",
+          "fees": "₹1.28 Lakhs (Total Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "M.Sc",
+          "courses": "2 Courses",
+          "fees": "₹2.04 Lakhs (1st Year Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "M.Tech",
+          "courses": "17 Courses",
+          "fees": "₹1.51 Lakhs (Total Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "BCA",
+          "courses": "1 Course",
+          "fees": "₹1.73 Lakhs (1st Year Fees)",
+          "duration": "3 Years",
+          "category": "UG"
+        }
+      ]
+      
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "The Jss placement cell is well connected with the best business houses in and beyond Bangalore and young and prospering start-ups. It is well equipped with state-of-the-art facilities to place well-trained students..",
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1081+,
+      },
+      2023: {
+        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1085+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:"Jss University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: "Jss University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "1963",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Mysore, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc53",
+    name: "Kishkinda University",
+    logo : "https://www.getmycollege.com/image-upload/new-uploads/college/logo/kishkinda-faculty-of-science-logo-835.jpg",
+    image:"https://static.zollege.in/public/college_data/images/campusimage/1703853568kishkinda-4.jpg",
+    speciality: "Sciences & Technology ",
+    place: "Bellary",
+    est: "Estd. 2023",
+    anothername: "State Private University",
+    agre: "UGC",
+    location:"Karnataka",
+    experience: "1 Year",
+    rating: "3", // Add this for the star rating
+    reviews: "300 + ",
+    degree: "Enigneering ",
+    field1: "Management studied",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Medicine and Allied Sience",
+    field7: "Arts",
+    field8: "Humanities",
+    fees: 50,
+    about: //NOT MORE THAN 6 LInes
+      "Kishkinda University is a private college established in 2023. The college is a member of AIU and approved by UGC and Karnataka state government. Located at Bellary (Karnataka), Kishkinda University offers 4 courses at UG and PG levels. A few popular courses offered by Kishkinda University are BTech, BCA, MCA, and MBA..",
+    overview:"Kishkinda University is a private college established in 2023. The college is a member of AIU and approved by UGC and Karnataka state government. Located at Bellary (Karnataka), Kishkinda University offers 4 courses at UG and PG levels. A few popular courses offered by Kishkinda University are BTech, BCA, MCA, and MBA. The college provides admission on the basis of entrance exams and the merit of the qualifying examination. The entrance exams accepted for admission to Kishkinda University are KCET/ KUSAT for BTech, Karnataka PGCET/ KUSAT for MCA and MBA, etc.  The college has a placement cell for training and placement of students. Further, Kishkinda University provides merit-based and need-based scholarships to eligible students. Its campus has modern facilities and infrastructure including hostels, transportation, cafeterias, banks, spacious classrooms, labs, etc. for the holistic development of the students. ....", //Add more if ypu needed
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online...",
+      },
+      {
+        question: "What are the college's facilities?",
+        answer: "The college offers state-of-the-art laboratories, library...",
+      },
+      {
+        question: "What is the fee structure?",
+        answer:
+          "The fee structure varies by course, starting from ₹120,000 per year.",
+      },
+    ],
+    courses: [
+      [
+        {
+          "name": "MCA",
+          "courses":"₹75,000/- Per Year",
+          "duration": "4 Years",
+          "category": "UG"
+        },
+        {
+          "name": "MBA",
+          "courses": "6 Courses",
+          "fees": "₹1.28 Lakhs (Total Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "M.Sc",
+          "courses": "2 Courses",
+          "fees": "₹2.04 Lakhs (1st Year Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "M.Tech",
+          "courses": "17 Courses",
+          "fees": "₹1.51 Lakhs (Total Fees)",
+          "duration": "2 Years",
+          "category": "PG"
+        },
+        {
+          "name": "BCA",
+          "courses": "1 Course",
+          "fees": "₹1.73 Lakhs (1st Year Fees)",
+          "duration": "3 Years",
+          "category": "UG"
+        }
+      ]
+      
+      
+      
+    ],
+    placement: {
+      2022: {
+        description: "The Jss placement cell is well connected with the best business houses in and beyond Bangalore and young and prospering start-ups. It is well equipped with state-of-the-art facilities to place well-trained students..",
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+
+        careerCenter:
+          "The Career Resource Center at the University ensured top placement results in 2023.",
+        totalOffers: 1081+,
+      },
+      2023: {
+        description:"The Jss placement process is thorough and individualized for students, parents, and the institution. They see placements as a by-product of all of the hard work students put in throughout their time to any degree. The “Career Advisory and Placements Services (CAPS)” which is the GCU placement cell helps students improve employability. Through the highly sought-after campus placements procedure, GCU supports students by providing training opportunities and a springboard for their careers.."
+        topRecruiters: ["Hexaware Technologies", "Muthoot Group", "Mercedes Benz", "Reliance", "Mahindra CIE Automotive Pvt Ltd", "Ujjivan Small Finance Bank", "Toyota Kirloskar", "Axis Bank"],
+        careerCenter:
+          "The 2024 placements saw another round of success for our University with over 2000 offers.",
+        totalOffers: 1085+,
+      },
+    },
+    address: {
+      line1: "17th Cross, Richmond",
+      line2: "Circle, Ring Road, London",
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.5
+      },
+      {
+        name: "Comp Labs",
+        icon:"https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.7
+      },
+      {
+        name: "Sports",
+        icon:"https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.6
+      },
+      {
+        name: "Gym",
+        icon:"https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.2
+      },
+      {
+        name: "Cafeteria",
+        icon:"https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.4
+      },
+      {
+        name: "Laboratory",
+        icon:"https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon:"https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.7
+      },
+      {
+        name: "Auditorium",
+        icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.3
+      },
+      {
+        name: "Hostel",
+        icon:"https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.6
+      }
+    ],       
+    rankings: [
+      {
+        year: "2022",
+        award:
+       "Garden City University was awarded the Best University Award in both 2022 and 2024, recognizing its exceptional contributions to education and innovation..",
+      },
+      {
+        year: "2023",
+        award: " In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student placement success..",
+      },
+      {
+        year: "2024",
+        award: "Garden City University has received praise for its cutting-edge research, particularly in the fields of engineering, technology, and science, helping it to build a strong academic reputation on both a national and international level..",
+      },
+    ],
+
+    highlights: {
+      Established: "1963",
+      Type: "State Private University",
+      Affiliation: "UGC , AICTE",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com",
+    },
+  },
+  {
+    _id: "doc55",
+    name: "M.S. Ramaiah University of Applied Sciences",
+    logo: "https://www.ramaiah-india.org/wp-content/uploads/2017/03/ramaiah-our-logo-logo.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoCLk9KE_ZkbS0vJ2Ol9J773ZibMEyim_lg&s",
+    speciality: "Engineering, Management, Pharmacy, Dental Sciences, Design, Law",
+    place: "Bangalore",
+    est: "Estd. 2013",
+    anothername: "Private University",
+    agre: "UGC",
+    location: "Karnataka",
+    experience: "11 Years",
+    rating: "4.3",
+    reviews: "1000+",
+    degree: "Engineering",
+    field1: "Management Studies",
+    field2: "Law",
+    field3: "Pharmacy",
+    field4: "Sciences",
+    field5: "Technology",
+    field6: "Dental Sciences",
+    field7: "Design",
+    field8: "Hospitality Management",
+    fees: 100,
+    about: "M.S. Ramaiah University of Applied Sciences (MSRUAS), established in 2013 in Bangalore, Karnataka, is a private university recognized by the UGC. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines, emphasizing applied learning and research.",
+    overview: "MSRUAS, founded in 2013 in Bangalore, Karnataka, is a private university recognized by the UGC. It offers a diverse array of undergraduate, postgraduate, and doctoral programs across disciplines such as engineering, management, pharmacy, dental sciences, design, law, and hospitality management. The university focuses on applied learning, research, and industry collaboration to equip students with practical skills and knowledge. The campus is equipped with modern facilities, including state-of-the-art laboratories, libraries, sports amenities, and hostels, providing an excellent environment for holistic development.",
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process involves applying online through the university's official website. Candidates must meet the eligibility criteria for their chosen program and may need to appear for entrance examinations as specified by the university."
+      },
+      {
+        question: "What facilities does the university offer?",
+        answer: "The university offers state-of-the-art laboratories, a comprehensive library, sports facilities, a gymnasium, medical services, a cafeteria, well-equipped laboratories, an auditorium, and hostel accommodations."
+      },
+      {
+        question: "What is the fee structure?",
+        answer: "The fee structure varies by course. For instance, the B.Tech program fees range from ₹1,60,000 to ₹2,00,000 per year. Detailed fee information for each program is available on the university's official website."
+      }
+    ],
+    courses: [
+      {
+        name: "B.Tech Electronics & Communication Engineering",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,60,000/- Per Year"
+      },
+      {
+        name: "B.Tech Biotechnology",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,60,000/- Per Year"
+      },
+      {
+        name: "B.Tech Computer Science and Engineering",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,00,000/- Per Year"
+      },
+      {
+        name: "B.Tech Mechatronics",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,40,000/- Per Year"
+      },
+      {
+        name: "B.Tech Cyber Security",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,90,000/- Per Year"
+      },
+      {
+        name: "B.Tech Data Sciences",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,90,000/- Per Year"
+      },
+      {
+        name: "B.Tech Artificial Intelligence & Machine Learning",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,00,000/- Per Year"
+      },
+      {
+        name: "B.Sc. in Forensic Science",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,00,000/- Per Year"
+      },
+      {
+        name: "B.Sc. in Computer Science",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,00,000/- Per Year"
+      },
+      {
+        name: "B.Sc. in Psychology",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,00,000/- Per Year"
+      },
+      {
+        name: "B.Sc. in Food Technology",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹1,00,000/- Per Year"
+      }
+    ],
+    placement: {
+      2022: {
+        description: "The placement cell at MSRUAS is well-connected with leading companies and emerging startups, providing students with ample opportunities for internships and placements.",
+        topRecruiters: ["Infosys", "Wipro", "Tata Consultancy Services", "Cognizant", "IBM", "HCL Technologies", "Accenture", "Tech Mahindra"],
+        careerCenter: "The Career Resource Center at the university ensured top placement results in 2022.",
+        totalOffers: "950+"
+      },
+      2023: {
+        description: "The placement process is comprehensive, focusing on enhancing employability through training and facilitating opportunities for students' careers.",
+        topRecruiters: ["Infosys", "Wipro", "Tata Consultancy Services", "Cognizant", "IBM", "HCL Technologies", "Accenture", "Tech Mahindra"],
+        careerCenter: "The 2023 placements saw another round of success for MSRUAS with over 1100 offers.",
+        totalOffers: "1100+"
+      }
+    },
+    address: {
+      line1: "University House, Gnanagangothri Campus, New BEL Road",
+      line2: "MSR Nagar, Bengaluru, Karnataka, India"
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.8
+      },
+      {
+        name: "Computer Labs",
+        icon: "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.6
+      },
+      {
+        name: "Sports Facilities",
+        icon: "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.5
+      },
+      {
+        name: "Gym",
+        icon: "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.7
+      },
+      {
+        name: "Medical Services",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.4
+      },
+      {
+        name: "Cafeteria",
+        icon: "https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.3
+      },
+      {
+        name: "Laboratories",
+        icon: "https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon: "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.8
+      },
+      {
+        name: "Auditorium",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.6
+      },
+      {
+        name: "Hostel",
+        icon: "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.7
+      }
+    ],
+    rankings: [
+      {
+        year: "2022",
+        award: "MSRUAS was awarded the Best University Award in 2022 for its exceptional contributions to research and innovation."
+      },
+      {
+        year: "2023",
+        award: "In 2023, the university was recognized for achieving the highest placement offers in Karnataka, demonstrating its strong industry connections and student success."
+      },
+      {
+        year: "2024",
+        award: "MSRUAS received praise in 2024 for its cutting-edge research in engineering and applied sciences, building a strong academic reputation at both national and international levels."
+      }
+    ],
+    highlights: {
+      Established: "2013",
+      Type: "Private University",
+      Affiliation: "UGC",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com"
+    }
+  }
+  {
+    _id: "doc56",
+    name: "PES University",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOkl7IMOSm_rh0tiU9a1OropsvGMp8pPiLA&s",
+    image: "https://img.collegepravesh.com/2017/02/PESIT-BCS.jpg",
+    speciality: "Engineering, Management, Law, Pharmacy, Sciences, Design",
+    place: "Bangalore",
+    est: "Estd. 1972",
+    anothername: "Private University",
+    agre: "UGC",
+    location: "Karnataka",
+    experience: "52 Years",
+    rating: "4.5",
+    reviews: "1500+",
+    degree: "Engineering",
+    field1: "Engineering",
+    field2: "Management",
+    field3: "Law",
+    field4: "Pharmacy",
+    field5: "Sciences",
+    field6: "Design",
+    field7: "Commerce",
+    fees: 150,
+    about: "PES University, established in 1972 in Bangalore, Karnataka, is one of the leading private universities recognized by UGC. It offers a wide range of undergraduate, postgraduate, and doctoral programs across multiple disciplines, emphasizing innovation, practical learning, and research.",
+    overview: "PES University, founded in 1972 in Bangalore, Karnataka, is a private university recognized by UGC. It offers undergraduate, postgraduate, and doctoral programs in engineering, management, pharmacy, law, sciences, design, and commerce. The university emphasizes a multidisciplinary approach, industry collaboration, and practical exposure. With a focus on innovation and global relevance, PES University is committed to transforming education. The university campus is equipped with state-of-the-art facilities, including laboratories, libraries, hostels, sports amenities, and more.",
+    questions: [
+      {
+        question: "What is the admission process?",
+        answer: "The admission process at PES University involves applying online and qualifying in entrance exams such as PESSAT or other accepted state/national-level exams. Admission is based on the rank secured in these examinations."
+      },
+      {
+        question: "What facilities does the university offer?",
+        answer: "PES University offers state-of-the-art laboratories, modern classrooms, a comprehensive library, sports facilities, medical services, a cafeteria, and hostel accommodations."
+      },
+      {
+        question: "What is the fee structure?",
+        answer: "The fee structure varies by course. For instance, B.Tech program fees range from ₹3,20,000 to ₹4,00,000 per year. Detailed fee information for each program is available on the university's official website."
+      }
+    ],
+    courses: [
+      {
+        name: "B.Tech Computer Science and Engineering",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹4,00,000/- Per Year"
+      },
+      {
+        name: "B.Tech Electronics & Communication Engineering",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,80,000/- Per Year"
+      },
+      {
+        name: "B.Tech Mechanical Engineering",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,50,000/- Per Year"
+      },
+      {
+        name: "B.Tech Biotechnology",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,60,000/- Per Year"
+      },
+      {
+        name: "BBA",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,00,000/- Per Year"
+      },
+      {
+        name: "MBA",
+        duration: "2 Year",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹4,00,000/- Per Year"
+      },
+      {
+        name: "B.Des. Product Design",
+        duration: "4 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,20,000/- Per Year"
+      },
+      {
+        name: "LLB",
+        duration: "5 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,50,000/- Per Year"
+      },
+      {
+        name: "Pharm.D",
+        duration: "6 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,00,000/- Per Year"
+      },
+      {
+        name: "B.Sc. in Computer Science",
+        duration: "3 Year",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,00,000/- Per Year"
+      }
+    ],
+    placement: {
+      2022: {
+        description: "The placement cell at PES University collaborates with leading companies, providing students with ample opportunities for internships and final placements.",
+        topRecruiters: ["Microsoft", "Amazon", "Flipkart", "Accenture", "Wipro", "TCS", "Capgemini", "Infosys"],
+        careerCenter: "The Career Resource Center at the university ensured successful placements for 90% of eligible students in 2022.",
+        totalOffers: "1200+"
+      },
+      2023: {
+        description: "The placement process is student-centric, focusing on enhancing employability through comprehensive training programs and career guidance.",
+        topRecruiters: ["Microsoft", "Amazon", "Flipkart", "Accenture", "Wipro", "TCS", "Capgemini", "Infosys"],
+        careerCenter: "The 2023 placements saw a rise in offers with over 1400 successful placements across top companies.",
+        totalOffers: "1400+"
+      }
+    },
+    address: {
+      line1: "100 Feet Ring Road, BSK III Stage",
+      line2: "Bengaluru, Karnataka, India"
+    },
+    facilities: [
+      {
+        name: "Campus",
+        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        rating: 4.7
+      },
+      {
+        name: "Computer Labs",
+        icon: "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        rating: 4.6
+      },
+      {
+        name: "Sports Facilities",
+        icon: "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        rating: 4.5
+      },
+      {
+        name: "Gym",
+        icon: "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        rating: 4.8
+      },
+      {
+        name: "Medical Services",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        rating: 4.4
+      },
+      {
+        name: "Cafeteria",
+        icon: "https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        rating: 4.3
+      },
+      {
+        name: "Laboratories",
+        icon: "https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        rating: 4.9
+      },
+      {
+        name: "Library",
+        icon: "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        rating: 4.8
+      },
+      {
+        name: "Auditorium",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        rating: 4.6
+      },
+      {
+        name: "Hostel",
+        icon: "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        rating: 4.7
+      }
+    ],
+    rankings: [
+      {
+        year: "2022",
+        award: "Best Private University in Karnataka"
+      },
+      {
+        year: "2023",
+        award: "Top University for Engineering Placements"
+      },
+      {
+        year: "2024",
+        award: "Excellence in Innovation and Research"
+      }
+    ],
+    highlights: {
+      Established: "1972",
+      Type: "Private University",
+      Affiliation: "UGC",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com"
+    }
+  }
+  {
+    "_id": "doc57",
+    "name": "Presidency University",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNHc_Eg13aYVKd-rL8O6lLgGkJWNqEfrg0g&s",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFbJK9BZm6SySIkynrDuWbtfrxtMK9z-eWw&s",
+    "speciality": "Engineering, Law, Management, Commerce, Design",
+    "place": "Bangalore",
+    "est": "Estd. 2013",
+    "anothername": "Private University",
+    "agre": "UGC",
+    "location": "Karnataka",
+    "experience": "11 Years",
+    "rating": "4.2",
+    "reviews": "800+",
+    "degree": "Engineering",
+    "field1": "Engineering",
+    "field2": "Law",
+    "field3": "Management",
+    "field4": "Commerce",
+    "field5": "Design",
+    "field6": "Sciences",
+    "fees": 120,
+    "about": "Presidency University, established in 2013 in Bangalore, Karnataka, is a private institution recognized by the UGC. It offers a range of undergraduate and postgraduate programs across engineering, management, law, commerce, and design.",
+    "overview": "Presidency University, established in 2013 in Bangalore, Karnataka, offers undergraduate and postgraduate programs in engineering, law, management, commerce, and design. With a focus on holistic education, Presidency University aims to provide quality education, industry collaboration, and global exposure to students. The university's campus is equipped with modern amenities, including laboratories, a well-stocked library, sports facilities, and hostels for student accommodation.",
+    "questions": [
+      {
+        "question": "What is the admission process?",
+        "answer": "The admission process at Presidency University involves applying online through the university's official website. Candidates are required to qualify in entrance exams such as PUEE or other state/national exams as specified."
+      },
+      {
+        "question": "What facilities does the university offer?",
+        "answer": "Presidency University provides state-of-the-art laboratories, classrooms, a well-stocked library, a gym, medical services, sports facilities, and on-campus hostel facilities."
+      },
+      {
+        "question": "What is the fee structure?",
+        "answer": "The fee structure varies by course. For instance, the B.Tech program fees range from ₹1,80,000 to ₹2,00,000 per year. Detailed fee information is available on the official website."
+      }
+    ],
+    "courses": [
+      {
+        "name": "B.Tech Civil Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,80,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹2,00,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Electronics and Communication Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,90,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Mechanical Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,85,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Petroleum Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹2,10,000/- Per Year"
+      },
+      {
+        "name": "BBA",
+        "duration": "3 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,20,000/- Per Year"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 Year",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹3,00,000/- Per Year"
+      },
+      {
+        "name": "LLB",
+        "duration": "5 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹2,00,000/- Per Year"
+      }
     ],
     "placement": {
       "2022": {
-        "description": "The placement cell at Jeppiaar University is well-connected with leading business houses and emerging startups, providing students with ample opportunities for internships and placements.",
-        "topRecruiters": ["Tata Consultancy Services", "Infosys", "Wipro", "HCL Technologies", "Cognizant", "Accenture", "IBM", "Tech Mahindra"],
-        "careerCenter": "The Career Resource Center at the university ensured top placement results in 2022.",
-        "totalOffers": "1200+"
+        "description": "The placement cell at Presidency University offers guidance and ample opportunities for internships and placements in collaboration with leading companies.",
+        "topRecruiters": ["Infosys", "IBM", "Cognizant", "Wipro", "TCS", "Accenture", "Capgemini"],
+        "careerCenter": "The Career Resource Center ensured a successful placement season for students in 2022.",
+        "totalOffers": "1000+"
       },
       "2023": {
-        "description": "The placement process is thorough and individualized, focusing on enhancing employability through training and providing a springboard for students' careers.",
-        "topRecruiters": ["Tata Consultancy Services", "Infosys", "Wipro", "HCL Technologies", "Cognizant", "Accenture", "IBM", "Tech Mahindra"],
-        "careerCenter": "The 2023 placements saw another round of success for the university with over 1300 offers.",
-        "totalOffers": "1300+"
+        "description": "The placement process focuses on student readiness, skill enhancement, and comprehensive career guidance.",
+        "topRecruiters": ["Infosys", "IBM", "Cognizant", "Wipro", "TCS", "Accenture", "Capgemini"],
+        "careerCenter": "The 2023 placement season saw a rise in offers, with over 1200 successful placements across top companies.",
+        "totalOffers": "1200+"
       }
     },
     "address": {
-      "line1": "Jeppiaar Nagar, Rajiv Gandhi Salai",
-      "line2": "Chennai, Tamil Nadu, India"
+      "line1": "Itgalpur Rajanakunte",
+      "line2": "Yelahanka, Bengaluru, Karnataka, India"
+    },
+    "facilities": [
+      {
+        "name": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        "rating": 4.5
+      },
+      {
+        "name": "Computer Labs",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        "rating": 4.4
+      },
+      {
+        "name": "Sports Facilities",
+        "icon": "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        "rating": 4.6
+      },
+      {
+        "name": "Gym",
+        "icon": "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        "rating": 4.7
+      },
+      {
+        "name": "Library",
+        "icon": "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        "rating": 4.8
+      }
+    ],
+    "rankings": [
+      {
+        "year": "2022",
+        "award": "Top Private University in Karnataka"
+      },
+      {
+        "year": "2023",
+        "award": "Excellence in Teaching and Learning"
+      }
+    ],
+    "highlights": {
+      "Established": "2013",
+      "Type": "Private University",
+      "Affiliation": "UGC",
+      "Location": "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate",
+      "Contact Details": "Ask@Carriersnavigators.com"
+    }
+  }
+  {
+    "_id": "doc58",
+    "name": "Rai Technology University",
+    "logo": "https://raitechuniversity.in/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-07-at-4.22.15-PM.jpeg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVWtq0-QyEo66bKzYb4HFfIpL08DL3jrLBA&s",
+    "speciality": "Agriculture, Engineering, Management",
+    "place": "Bangalore",
+    "est": "Estd. 2013",
+    "anothername": "Private University",
+    "agre": "UGC",
+    "location": "Karnataka",
+    "experience": "11 Years",
+    "rating": "3.9",
+    "reviews": "600+",
+    "degree": "Engineering",
+    "field1": "Agriculture",
+    "field2": "Engineering",
+    "field3": "Management",
+    "field4": "Commerce",
+    "fees": 80,
+    "about": "Rai Technology University, established in 2013 in Bangalore, Karnataka, is a private university recognized by the UGC. It offers a variety of undergraduate and postgraduate programs, focusing on agriculture, engineering, and management.",
+    "overview": "Rai Technology University, established in 2013, offers programs across agriculture, engineering, and management. With a focus on rural empowerment and practical knowledge, Rai Technology University aims to make education accessible and relevant for the industry. The university offers a peaceful campus environment equipped with modern amenities, including well-stocked labs, a library, sports facilities, and more.",
+    "questions": [
+      {
+        "question": "What is the admission process?",
+        "answer": "The admission process at Rai Technology University involves applying online through the university's official website and qualifying for relevant entrance examinations."
+      },
+      {
+        "question": "What are the facilities provided?",
+        "answer": "Rai Technology University provides well-equipped laboratories, a comprehensive library, classrooms, sports facilities, and hostels."
+      },
+      {
+        "question": "What is the fee structure?",
+        "answer": "The fee structure varies by program. For example, B.Sc. in Agriculture costs ₹1,20,000 per year. Detailed fee information can be found on the university's website."
+      }
+    ],
+    "courses": [
+      {
+        "name": "B.Sc. in Agriculture",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,20,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Computer Science",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,50,000/- Per Year"
+      },
+      {
+        "name": "B.Tech Civil Engineering",
+        "duration": "4 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,45,000/- Per Year"
+      },
+      {
+        "name": "BBA",
+        "duration": "3 Year",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹1,00,000/- Per Year"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 Year",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹2,50,000/- Per Year"
+      }
+    ],
+    "placement": {
+      "2022": {
+        "description": "The placement cell at Rai Technology University is dedicated to providing opportunities to students through collaborations with agricultural and industrial companies.",
+        "topRecruiters": ["Mahindra Agribusiness", "Monsanto", "HDFC Bank", "ICICI Prudential", "Infosys"],
+        "careerCenter": "In 2022, the placement cell secured over 500 offers for students across different sectors.",
+        "totalOffers": "500+"
+      },
+      "2023": {
+        "description": "The 2023 placement season showed significant growth, with a focus on improving employability through training programs.",
+        "topRecruiters": ["Mahindra Agribusiness", "Monsanto", "HDFC Bank", "ICICI Prudential", "Infosys"],
+        "careerCenter": "The placement team managed to bring over 600 offers for students in 2023.",
+        "totalOffers": "600+"
+      }
+    },
+    "address": {
+      "line1": "Doddaballapur, Bengaluru Rural",
+      "line2": "Karnataka, India"
+    },
+    "facilities": [
+      {
+        "name": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        "rating": 4.3
+      },
+      {
+        "name": "Agriculture Labs",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        "rating": 4.5
+      },
+      {
+        "name": "Sports Facilities",
+        "icon": "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        "rating": 4.4
+      },
+      {
+        "name": "Library",
+        "icon": "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        "rating": 4.6
+      }
+    ],
+    "rankings": [
+      {
+        "year": "2022",
+        "award": "Excellence in Agricultural Education"
+      },
+      {
+        "year": "2023",
+        "award": "Best Rural Empowerment Initiative"
+      }
+    ],
+    "highlights": {
+      "Established": "2013",
+      "Type": "Private University",
+      "Affiliation": "UGC",
+      "Location": "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate",
+      "Contact Details": "Ask@Carriersnavigators.com"
+    }
+  }
+  {
+    "_id": "doc59",
+    "name": "Reva University",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJSfLSe55qDkKhCjNfS3NcbLd2eYCugegUnA&s",
+    "image": "https://www.birlatrimayaa.in/images/birla/reva-university.webp",
+    "speciality": "Engineering & Technology",
+    "place": "Karnataka",
+    "est": "Estd. 2004",
+    "anothername": "Private University",
+    "agre": "AICTE, UGC, NAAC-A+",
+    "location": "Bengaluru",
+    "experience": "19 Years",
+    "rating": "4",
+    "reviews": "500+",
+    "degree": "Engineering",
+    "field1": "Management Studies",
+    "field2": "Law",
+    "field3": "Pharmacy",
+    "field4": "Sciences",
+    "field5": "Technology",
+    "field6": "Medicine and Allied Science",
+    "field7": "Arts",
+    "field8": "Humanities",
+    "fees": 65000,
+    "about": "Established in 2004, Reva University is a leading private university located in Bengaluru, Karnataka. Known for its academic excellence and world-class infrastructure, the university offers a wide range of undergraduate, postgraduate, and doctoral programs.",
+    "overview": "Reva University is recognized for its focus on quality education and innovation. Accredited with an 'A+' grade by NAAC, the university provides a vibrant campus environment, experienced faculty, and cutting-edge facilities to empower students in various fields of study.",
+    "questions": [
+      {
+        question: "What is the admission process?",
+        answer: "Admissions are based on merit and entrance exams such as REVA CET, JEE Main, or other qualifying exams."
+      },
+      {
+        question: "What facilities does the university offer?",
+        answer: "The university offers modern classrooms, state-of-the-art labs, sports facilities, hostels, a library, and medical facilities."
+      },
+      {
+        question: "What is the fee structure?",
+        answer: "The fee structure varies by program and level of study, starting from ₹1,00,000 per year."
+      }
+    ],
+    "courses": [
+      {
+        name: "B.Tech. in Computer Science and Engineering",
+        duration: "4 years",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹4,00,000 - ₹12,00,000 Total"
+      },
+      {
+        name: "MBA",
+        duration: "2 years",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹3,50,000 Total"
+      },
+      {
+        name: "B.Sc. in Data Science",
+        duration: "3 years",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹2,40,000 Total"
+      },
+      {
+        name: "MCA",
+        duration: "2 years",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹2,00,000 Total"
+      },
+      {
+        name: "BBA",
+        duration: "3 years",
+        type: "Full Time",
+        category: "UG",
+        fees: "₹3,00,000 Total"
+      },
+      {
+        name: "M.Tech. in Data Analytics",
+        duration: "2 years",
+        type: "Full Time",
+        category: "PG",
+        fees: "₹2,50,000 Total"
+      },
+      {
+        name: "Ph.D. in Management",
+        duration: "3-5 years",
+        type: "Full Time",
+        category: "Doctoral",
+        fees: "₹1,50,000 Total"
+      }
+    ],
+    "placement": {
+      "2022": {
+        description: "In 2022, over 150 companies visited the campus, providing 1,200+ job offers. The highest package offered was ₹22 LPA.",
+        topRecruiters: ["Infosys", "TCS", "Wipro", "Capgemini", "IBM", "Amazon"],
+        careerCenter: "The Career Development Center facilitated internships and placements with industry leaders.",
+        totalOffers: 1200
+      },
+      "2023": {
+        description: "In 2023, the placement season witnessed a record-breaking 1,500+ offers with top recruiters offering packages up to ₹24 LPA.",
+        topRecruiters: ["Cognizant", "Accenture", "Dell", "Deloitte", "Microsoft"],
+        careerCenter: "The Career Center ensured over 95% placement success.",
+        totalOffers: 1500
+      }
+    },
+    "address": {
+      line1: "Rukmini Knowledge Park",
+      line2: "Yelahanka, Bengaluru, Karnataka, India"
+    },
+    "facilities": [
+      {
+        "name": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        "rating": 4.5
+      },
+      {
+        "name": "Comp Labs",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        "rating": 4.7
+      },
+      {
+        "name": "Sports",
+        "icon": "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        "rating": 4.6
+      },
+      {
+        "name": "Gym",
+        "icon": "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        "rating": 4.8
+      },
+      {
+        "name": "Medical",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        "rating": 4.2
+      },
+      {
+        "name": "Cafeteria",
+        "icon": "https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        "rating": 4.4
+      },
+      {
+        "name": "Laboratory",
+        "icon": "https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        "rating": 4.9
+      },
+      {
+        "name": "Library",
+        "icon": "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        "rating": 4.7
+      },
+      {
+        "name": "Auditorium",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        "rating": 4.3
+      },
+      {
+        "name": "Hostel",
+        "icon": "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        "rating": 4.6
+      }
+    ],
+    "rankings": [
+      {
+        year: "2022",
+        award: "Ranked among the Top 100 Universities in India by NIRF."
+      },
+      {
+        year: "2023",
+        award: "Best University for Innovation and Research by Education World."
+      },
+      {
+        year: "2024",
+        award: "Ranked as one of the top private universities in South India."
+      }
+    ],
+    "highlights": {
+      Established: "Estd 2004",
+      Type: "Private University",
+      Affiliation: "AICTE, UGC, NAAC-A+",
+      Location: "Bengaluru, Karnataka",
+      "Exam Frequency": "Semester",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
+      "Contact Details": "Ask@Carriersnavigators.com"
+    }
+  },
+  {
+    "_id": "doc60",
+    "name": "RV University",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZdqNzXbbIlSX9mNMJs6BKEw39-TMJragaw&s",
+    "image": "https://admissionkaro.com/wp-content/uploads/2024/04/rv-university-direct-admission.jpg",
+    "speciality": "Engineering, Management, and Liberal Arts",
+    "place": "Karnataka",
+    "est": "Estd. 2021",
+    "anothername": "Private University",
+    "agre": "AICTE, UGC, NAAC",
+    "location": "Bengaluru",
+    "experience": "3 Years",
+    "rating": "4.2",
+    "reviews": "200+",
+    "degree": "Engineering, Management, Arts",
+    "field1": "Engineering",
+    "field2": "Management",
+    "field3": "Law",
+    "field4": "Sciences",
+    "field5": "Technology",
+    "field6": "Arts",
+    "field7": "Humanities",
+    "field8": "Social Sciences",
+    "fees": 75000,
+    "about": "Established in 2021, RV University is a premier private university located in Bengaluru, Karnataka. Known for its modern curriculum and strong emphasis on experiential learning, it offers a wide range of programs in engineering, management, and liberal arts.",
+    "overview": "RV University aims to redefine education by focusing on innovation, interdisciplinary learning, and a global perspective. The university boasts state-of-the-art infrastructure, experienced faculty, and industry connections, making it one of the fastest-growing institutions in India.",
+    "questions": [
+      {
+        "question": "What is the admission process?",
+        "answer": "Admissions are based on entrance exams such as RVU-CET, JEE Main, or qualifying marks in the previous degree."
+      },
+      {
+        "question": "What facilities does the university offer?",
+        "answer": "The university offers modern infrastructure, well-equipped labs, a library, sports facilities, hostels, and a cafeteria."
+      },
+      {
+        "question": "What is the fee structure?",
+        "answer": "The fee structure varies by course, starting from ₹1,20,000 per year for undergraduate programs."
+      }
+    ],
+    "courses": [
+      {
+        "name": "B.Tech. in Computer Science and Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,50,000 Total"
+      },
+      {
+        "name": "B.Tech. in Electronics and Communication Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,50,000 Total"
+      },
+      {
+        "name": "B.Tech. in Mechanical Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,50,000 Total"
+      },
+      {
+        "name": "B.Tech. in Civil Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,50,000 Total"
+      },
+      {
+        "name": "BBA",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "B.Com (Hons.)",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "BA in Liberal Arts",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹2,50,000 Total"
+      },
+      {
+        "name": "B.Sc. in Data Science",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "B.Des. in Product Design",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
+      },
+      {
+        "name": "B.Des. in Communication Design",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
+      },
+      {
+        "name": "B.Des. in Interaction Design",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
+      },
+      {
+        "name": "B.A. LL.B. (Hons.)",
+        "duration": "5 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹5,00,000 Total"
+      },
+      {
+        "name": "B.B.A. LL.B. (Hons.)",
+        "duration": "5 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹5,00,000 Total"
+      },
+      {
+        "name": "M.Tech in Artificial Intelligence",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "M.Tech in Data Science",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹4,00,000 Total"
+      },
+      {
+        "name": "Ph.D. in Management",
+        "duration": "3-5 years",
+        "type": "Full Time",
+        "category": "Doctoral",
+        "fees": "₹2,00,000 Total"
+      }
+    ],
+    "placement": {
+      "2022": {
+        "description": "In 2022, over 100 companies visited the campus, providing 500+ job offers. The highest package was ₹15 LPA.",
+        "topRecruiters": ["Infosys", "Wipro", "Deloitte", "Amazon", "Capgemini"],
+        "careerCenter": "The Career Services team facilitated industry partnerships and student training programs.",
+        "totalOffers": 500
+      },
+      "2023": {
+        "description": "In 2023, placement activities included internships and full-time roles with a record 700+ offers.",
+        "topRecruiters": ["IBM", "TCS", "Cognizant", "Microsoft", "Accenture"],
+        "careerCenter": "The university achieved a placement success rate of 90%.",
+        "totalOffers": 700
+      }
+    },
+    "address": {
+      "line1": "RV College of Engineering Campus",
+      "line2": "Mysore Road, Bengaluru, Karnataka, India"
     },
     "facilities": [
       {
@@ -15924,195 +19615,252 @@ export const Collages = [
     "rankings": [
       {
         "year": "2022",
-        "award": "Jeppiaar University was awarded the Best Emerging University Award in 2022 for its exceptional contributions to education and innovation."
+        "award": "Ranked as the Best Emerging University in South India."
       },
       {
         "year": "2023",
-        "award": "In 2023, the university was recognized for achieving the highest placement offers in Tamil Nadu, demonstrating its strong industry connections and student placement success."
+        "award": "Ranked among the Top 10 Universities for Liberal Arts and Management."
       },
       {
         "year": "2024",
-        "award": "Jeppiaar University received praise in 2024 for its cutting-edge research, particularly in engineering and technology, helping it to build a strong academic reputation at both national and international levels."
+        "award": "Recognized for Excellence in Innovation and Research."
       }
     ],
     "highlights": {
-      "Established": "2021",
+      "Established": "Estd 2021",
       "Type": "Private University",
-      "Affiliation": "UGC",
-      "Location": "Chennai, Tamil Nadu",
+      "Affiliation": "AICTE, UGC, NAAC",
+      "Location": "Bengaluru, Karnataka",
       "Exam Frequency": "Semester",
-      "Courses Offered": "Undergraduate, Postgraduate",
+      "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
       "Contact Details": "Ask@Carriersnavigators.com"
     }
   },
   {
-    _id: "doc44",
-    name: "KLE Technological University",
-    logo: "https://www.kletech.ac.in/wp-content/uploads/2021/01/KLE_Logo.png",
-    image: "https://www.kletech.ac.in/wp-content/uploads/2021/01/University_Campus.jpg",
-    speciality: "Engineering, Technology, and Management",
-    place: "Hubballi",
-    est: "Estd. 1947",
-    anothername: "B.V. Bhoomaraddi College of Engineering & Technology",
-    agre: "NAAC A Grade",
-    location: "Karnataka",
-    experience: "76 Years",
-    rating: "4.3",
-    reviews: "1000+",
-    degree: "Engineering",
-    field1: "Management Studies",
-    field2: "Sciences",
-    field3: "Engineering",
-    field4: "Technology",
-    field5: "Humanities",
-    fees: 80,
-    about: "KLE Technological University, located in Hubballi, Karnataka, was established in 1947 as B.V. Bhoomaraddi College of Engineering and Technology and gained university status in 2012. The university offers undergraduate and postgraduate programs in engineering, technology, and management.",
-    overview: "KLE Technological University is a premier private institution established in 1947 in Hubballi, Karnataka. Initially founded as B.V. Bhoomaraddi College of Engineering and Technology, it was transformed into a university in 2012. The university offers a wide array of undergraduate and postgraduate programs, focusing on innovation, research, and industry partnerships. KLE Technological University is accredited with an 'A' grade by NAAC and is ranked among the top 200 institutions by the National Institutional Ranking Framework (NIRF). The campus features modern infrastructure to foster an environment conducive to learning and development.",
-    questions: [
+    "_id": "doc61",
+    "name": "Sapthagiri NPS University",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrRU-jRxSgmubn6ZC1BapHbxDAmrO4UWPbFQ&s",
+    "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-111407914/111407914.jpg",
+    "speciality": "Multidisciplinary Education",
+    "place": "Karnataka",
+    "est": "Estd. 2001",
+    "anothername": "Private University",
+    "agre": "AICTE, UGC, NAAC",
+    "location": "Bengaluru",
+    "experience": "23 Years",
+    "rating": "4.0",
+    "reviews": "150+",
+    "degree": "Engineering, Management, Applied Sciences",
+    "field1": "Engineering",
+    "field2": "Management",
+    "field3": "Applied Sciences",
+    "field4": "Health Sciences",
+    "field5": "Business Studies",
+    "field6": "Technology",
+    "field7": "Arts",
+    "field8": "Humanities",
+    "fees": 100000,
+    "about": "Established in 2001, Sapthagiri NPS University is a leading institution in Bengaluru, Karnataka, offering a wide range of undergraduate and postgraduate programs across various disciplines. The university is committed to providing quality education and fostering holistic development among its students.",
+    "overview": "Sapthagiri NPS University focuses on multidisciplinary education, emphasizing deep knowledge, problem-solving skills, leadership, and effective communication through innovative teaching methods. The university is equipped to meet and sustain the challenges of higher education in India.",
+    "questions": [
       {
-        question: "What is the admission process?",
-        answer: "The admission process at KLE Technological University involves applying online through their official website. Students must meet the eligibility criteria and may be required to take an entrance exam such as KCET or COMEDK."
+        "question": "What is the admission process?",
+        "answer": "The admission process involves applying online through the university's official website, followed by eligibility verification and counseling sessions."
       },
       {
-        question: "What are the university's facilities?",
-        answer: "KLE Technological University offers facilities such as state-of-the-art laboratories, modern library, sports complexes, gymnasium, hostel accommodations, and a cafeteria."
+        "question": "What facilities does the university offer?",
+        "answer": "The university offers state-of-the-art laboratories, a comprehensive library, sports facilities, hostels, a cafeteria, and medical services."
       },
       {
-        question: "What is the fee structure?",
-        answer: "The fee structure varies depending on the course. For B.Tech, fees range from ₹80,000 to ₹1,50,000 per year."
+        "question": "What is the fee structure?",
+        "answer": "The fee structure varies by course, with undergraduate programs starting from ₹1,00,000 per year."
       }
     ],
-    courses: [
+    "courses": [
       {
-        name: "B.Tech Civil Engineering",
-        duration: "4 Year",
-        type: "Full Time",
-        category: "UG",
-        fees: "₹80,000/- Per Year"
+        "name": "B.Tech in Computer Science and Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
       },
       {
-        name: "B.Tech Mechanical Engineering",
-        duration: "4 Year",
-        type: "Full Time",
-        category: "UG",
-        fees: "₹90,000/- Per Year"
+        "name": "B.Tech in Electronics and Communication Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
       },
       {
-        name: "B.Tech Computer Science and Engineering",
-        duration: "4 Year",
-        type: "Full Time",
-        category: "UG",
-        fees: "₹1,50,000/- Per Year"
+        "name": "B.Tech in Mechanical Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
       },
       {
-        name: "B.Tech Electrical and Electronics Engineering",
-        duration: "4 Year",
-        type: "Full Time",
-        category: "UG",
-        fees: "₹85,000/- Per Year"
+        "name": "B.Tech in Civil Engineering",
+        "duration": "4 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹4,00,000 Total"
       },
       {
-        name: "M.Tech Structural Engineering",
-        duration: "2 Year",
-        type: "Full Time",
-        category: "PG",
-        fees: "₹1,20,000/- Per Year"
+        "name": "BBA",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
       },
       {
-        name: "MBA in Marketing",
-        duration: "2 Year",
-        type: "Full Time",
-        category: "PG",
-        fees: "₹1,50,000/- Per Year"
+        "name": "B.Com",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "B.Sc in Applied Sciences",
+        "duration": "3 years",
+        "type": "Full Time",
+        "category": "UG",
+        "fees": "₹3,00,000 Total"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹2,00,000 Total"
+      },
+      {
+        "name": "MCA",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹2,00,000 Total"
+      },
+      {
+        "name": "M.Tech in Computer Science and Engineering",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹2,00,000 Total"
+      },
+      {
+        "name": "M.Tech in Electronics and Communication Engineering",
+        "duration": "2 years",
+        "type": "Full Time",
+        "category": "PG",
+        "fees": "₹2,00,000 Total"
+      },
+      {
+        "name": "Ph.D. in Engineering",
+        "duration": "3-5 years",
+        "type": "Full Time",
+        "category": "Doctoral",
+        "fees": "₹1,50,000 Total"
+      },
+      {
+        "name": "Ph.D. in Management",
+        "duration": "3-5 years",
+        "type": "Full Time",
+        "category": "Doctoral",
+        "fees": "₹1,50,000 Total"
       }
     ],
-    placement: {
-      2022: {
-        description: "KLE Technological University has a dedicated placement cell that maintains strong corporate relations. In 2022, over 200 companies participated in campus placements, recruiting students from various engineering and management disciplines.",
-        topRecruiters: ["Infosys", "Wipro", "Accenture", "TCS", "IBM", "Tech Mahindra"],
-        careerCenter: "The Career Center at the university plays a key role in organizing placement activities, ensuring students are well-prepared for job opportunities.",
-        totalOffers: "1400+"
+    "placement": {
+      "2022": {
+        "description": "In 2022, over 80 companies visited the campus, providing 600+ job offers. The highest package was ₹12 LPA.",
+        "topRecruiters": ["Infosys", "Wipro", "TCS", "IBM", "Capgemini"],
+        "careerCenter": "The Career Services team facilitated industry partnerships and student training programs.",
+        "totalOffers": 600
       },
-      2023: {
-        description: "The placement cell's efforts resulted in a successful placement season in 2023, with participation from leading firms across multiple industries.",
-        topRecruiters: ["Infosys", "Wipro", "Accenture", "TCS", "IBM", "Tech Mahindra"],
-        careerCenter: "In 2023, the university's placement cell facilitated over 1500 job offers for students across various programs.",
-        totalOffers: "1500+"
+      "2023": {
+        "description": "In 2023, placement activities included internships and full-time roles with a record 700+ offers.",
+        "topRecruiters": ["Accenture", "Cognizant", "Dell", "HP", "Mindtree"],
+        "careerCenter": "The university achieved a placement success rate of 85%.",
+        "totalOffers": 700
       }
     },
-    address: {
-      line1: "B.V. Bhoomaraddi College Campus",
-      line2: "Vidyanagar, Hubballi, Karnataka, India"
+    "address": {
+      "line1": "Sapthagiri NPS University Campus",
+      "line2": "Hesaraghatta Main Road, Bengaluru, Karnataka, India"
     },
-    facilities: [
+    "facilities": [
       {
-        name: "Campus",
-        icon: "https://cdn-icons-png.flaticon.com/128/182/182336.png",
-        rating: 4.6
+        "name": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/128/182/182336.png",
+        "rating": 4.5
       },
       {
-        name: "Comp Labs",
-        icon: "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
-        rating: 4.7
+        "name": "Comp Labs",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2393/2393605.png",
+        "rating": 4.7
       },
       {
-        name: "Sports",
-        icon: "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
-        rating: 4.5
+        "name": "Sports",
+        "icon": "https://cdn-icons-png.flaticon.com/512/7438/7438654.png",
+        "rating": 4.6
       },
       {
-        name: "Gym",
-        icon: "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
-        rating: 4.8
+        "name": "Gym",
+        "icon": "https://cdn-icons-png.flaticon.com/128/7984/7984880.png",
+        "rating": 4.8
       },
       {
-        name: "Medical",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
-        rating: 4.4
+        "name": "Medical",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R_yXNKqVkZkUW6c4lOkwIxSi2nurpSeDGQ&s",
+        "rating": 4.2
       },
       {
-        name: "Cafeteria",
-        icon: "https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
-        rating: 4.3
+        "name": "Cafeteria",
+        "icon": "https://thumbs.dreamstime.com/b/cafeteria-diner-vector-signs-coffee-cup-smoke-fork-knife-plate-icon-symbols-restaurant-cafe-icons-cafeteria-123781463.jpg",
+        "rating": 4.4
       },
       {
-        name: "Library",
-        icon: "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
-        rating: 4.9
+        "name": "Laboratory",
+        "icon": "https://cdn-icons-png.flaticon.com/512/8711/8711362.png",
+        "rating": 4.9
       },
       {
-        name: "Auditorium",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
-        rating: 4.7
+        "name": "Library",
+        "icon": "https://cdn-icons-png.flaticon.com/512/9043/9043296.png",
+        "rating": 4.7
       },
       {
-        name: "Hostel",
-        icon: "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
-        rating: 4.6
+        "name": "Auditorium",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7NFqGsDLmfJIEeyfHeq07mAFa_VpitXxDbQ&s",
+        "rating": 4.3
+      },
+      {
+        "name": "Hostel",
+        "icon": "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+        "rating": 4.6
       }
     ],
-    rankings: [
+    "rankings": [
       {
-        year: "2022",
-        award: "Ranked among the top 200 institutions by NIRF in 2022, recognizing its quality education and research contributions."
+        "year": "2022",
+        "award": "Ranked among the Top 10 Universities in Karnataka."
       },
       {
-        year: "2023",
-        award: "KLE Technological University was awarded the 'Best University in Research and Innovation' in 2023 by the Karnataka Higher Education Council."
+        "year": "2023",
+        "award": "Recognized for Excellence in Research and Innovation."
       },
       {
-        year: "2024",
-        award: "Ranked as one of the leading universities in Karnataka for engineering and technology in 2024."
+        "year": "2024",
+        "award": "Best University for Student Support and Career Development."
       }
     ],
-    highlights: {
-      Established: "1947",
-      Type: "Private University",
-      Affiliation: "UGC, NAAC Accredited",
-      Location: "Hubballi, Karnataka",
+    "highlights": {
+      "Established": "Estd 2001",
+      "Type": "Private University",
+      "Affiliation": "AICTE, UGC, NAAC",
+      "Location": "Bengaluru, Karnataka",
       "Exam Frequency": "Semester",
       "Courses Offered": "Undergraduate, Postgraduate, Doctoral",
-      "Contact Details": "info@kletech.ac.in"
+      "Contact Details": "Ask@Carriersnavigators.com"
     }
   }
-];
+  ];
